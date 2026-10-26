@@ -1,11 +1,11 @@
-const fail=message=>{const e=new Error(message);e.status=400;throw e;};
+const fail=(message,field=null)=>{const e=new Error(message);e.status=400;e.code='geometry';e.field=field;throw e;};
 export function objectKeys(value,allowed,name='object') {
  if(!value||typeof value!=='object'||Array.isArray(value)||Object.getPrototypeOf(value)!==Object.prototype)fail('Invalid '+name);
  const actual=Object.keys(value);
  if(actual.length!==allowed.length||actual.some(k=>!allowed.includes(k)))fail('Unexpected or missing '+name+' fields');
 }
 export function integer(value,min,max,name) {
- if(!Number.isSafeInteger(value)||value<min||value>max)fail('Invalid '+name);
+ if(!Number.isSafeInteger(value)||value<min||value>max)fail('Invalid '+name,{'output width':'width','output height':'height','crop x':'crop-x','crop y':'crop-y','crop width':'crop-width','crop height':'crop-height'}[name]||null);
  return value;
 }
 export function normalizeSource(value) {
@@ -26,7 +26,8 @@ export function normalizeSettings(source,value) {
   objectKeys(value.crop,['x','y','width','height'],'crop');
   const r=value.crop;integer(r.x,0,source.width-1,'crop x');integer(r.y,0,source.height-1,'crop y');
   integer(r.width,1,source.width,'crop width');integer(r.height,1,source.height,'crop height');
-  if(r.x+r.width>source.width||r.y+r.height>source.height)fail('Crop exceeds source');
+  if(r.x+r.width>source.width)fail('Crop exceeds source','crop-width');
+  if(r.y+r.height>source.height)fail('Crop exceeds source','crop-height');
   crop={...r};
  }
  return {...value,crop};

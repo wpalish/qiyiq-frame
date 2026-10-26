@@ -1,6 +1,7 @@
 import {inspectImage,inspectPNGOutput} from './image-header.js';
 import {normalizeRecipe,normalizeSettings,geometry} from './geometry.js';
 const defaults=()=>({mode:'contain',width:1000,height:1000,matte:'white',crop:null});
+const issue=(code,message)=>Object.assign(new Error(message),{code});
 const hash=async bytes=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))).map(b=>b.toString(16).padStart(2,'0')).join('');
 function render(bitmap,g,settings){
  const canvas=document.createElement('canvas');canvas.width=settings.width;canvas.height=settings.height;
@@ -20,12 +21,12 @@ const encode=canvas=>new Promise((resolve,reject)=>canvas.toBlob(blob=>blob?reso
 export class ImageSession {
  constructor(dependencies={}) {
   this.dep={hash,inspect:inspectImage,inspectOutput:inspectPNGOutput,decode:async(bytes,header)=>createImageBitmap(new Blob([bytes],{type:header.format==='png'?'image/png':'image/jpeg'})),render,encode,releaseCanvas:c=>{c.width=0;c.height=0;},urlCreate:blob=>URL.createObjectURL(blob),urlRevoke:url=>URL.revokeObjectURL(url),now:()=>Date.now(),changed:()=>{},...dependencies};
-  this.generation=0;this.actor=null;this._bitmap=null;this._preview=null;this._source=null;this._settings=null;this._geometry=null;this._output=null;this.blocked=true;this.inputValid=false;this.error=null;this.loadingGeneration=null;this.exportInFlight=false;this.loadQueue=Promise.resolve();
+  this.generation=0;this.actor=null;this._bitmap=null;this._preview=null;this._source=null;this._settings=null;this._geometry=null;this._output=null;this.blocked=true;this.inputValid=false;this.error=null;this.problem=null;this.loadingGeneration=null;this.exportInFlight=false;this.loadQueue=Promise.resolve();
  }
  get bitmap(){return this._bitmap;}
- get state(){return {source:structuredClone(this._source),settings:structuredClone(this._settings),geometry:structuredClone(this._geometry),preview:this._preview,output:this._output?{...this._output,manifest:structuredClone(this._output.manifest)}:null,blocked:this.blocked,error:this.error,loading:this.loadingGeneration!==null,exporting:this.exportInFlight};}
+ get state(){return {source:structuredClone(this._source),settings:structuredClone(this._settings),geometry:structuredClone(this._geometry),preview:this._preview,output:this._output?{...this._output,manifest:structuredClone(this._output.manifest)}:null,blocked:this.blocked,error:this.error,problem:structuredClone(this.problem),loading:this.loadingGeneration!==null,exporting:this.exportInFlight};}
  changed(){this.dep.changed(this.state);}
- invalidate(){this.generation++;if(this._output){this.dep.urlRevoke(this._output.pngUrl);this.dep.urlRevoke(this._output.manifestUrl);}this._output=null;this.blocked=true;this.error=null;return this.generation;}
+ invalidate(){this.generation++;if(this._output){this.dep.urlRevoke(this._output.pngUrl);this.dep.urlRevoke(this._output.manifestUrl);}this._output=null;this.blocked=true;this.error=null;this.problem=null;return this.generation;}
  identity(name){
   if(name===this.actor)return;
   this.invalidate();this.actor=name;this.loadingGeneration=null;this.inputValid=false;
@@ -42,13 +43,13 @@ export class ImageSession {
    const current=()=>this.generation===token&&!!this.actor;
    try {
     if(!current())return {status:'stale'};
-    if(!file||!Number.isSafeInteger(file.size)||file.size<1||file.size>8388608)throw Error('File must be1–8388608 bytes');
+    if(!file||!Number.isSafeInteger(file.size)||file.size<1||file.size>8388608)throw issue('file_size','File must be1–8388608 bytes');
     if(recipeError)throw recipeError;const saved=frozenRecipe;
     const bytes=new Uint8Array(await file.arrayBuffer());if(!current())return {status:'stale'};
     if(bytes.byteLength!==file.size)throw Error('File length changed');
     const header=this.dep.inspect(bytes),sha256=await this.dep.hash(bytes);if(!current())return {status:'stale'};
     const source={...header,sha256};
-    if(saved&&['format','sha256','byteLength','width','height'].some(k=>source[k]!==saved.source[k]))throw Error('Reselect the exact saved source file');
+    if(saved&&['format','sha256','byteLength','width','height'].some(k=>source[k]!==saved.source[k]))throw issue('source_mismatch','Reselect the exact saved source file');
     bitmap=await this.dep.decode(bytes,header);
     if(!current()){bitmap.close();bitmap=null;return {status:'stale'};}
     if(bitmap.width!==source.width||bitmap.height!==source.height)throw Error('Decoded/header dimensions differ');
@@ -57,7 +58,7 @@ export class ImageSession {
     this._bitmap?.close();if(this._preview)this.dep.releaseCanvas(this._preview);
     this._bitmap=bitmap;bitmap=null;this._preview=preview;preview=null;this._source=source;this._settings=settings;this._geometry=g;this.inputValid=true;this.blocked=false;this.error=null;
     return {status:'ready'};
-   }catch(e){bitmap?.close();if(preview)this.dep.releaseCanvas(preview);if(current()){this.error=e.message;this.blocked=true;return {status:'error',message:e.message};}return {status:'stale'};}
+   }catch(e){bitmap?.close();if(preview)this.dep.releaseCanvas(preview);if(current()){this.error=e.message;this.problem={code:typeof e.code==='string'?e.code:'file_decode',field:e.field||null};this.blocked=true;return {status:'error',message:e.message};}return {status:'stale'};}
    finally{if(this.loadingGeneration===token)this.loadingGeneration=null;this.changed();}
   });
   return this.loadQueue;
@@ -65,11 +66,11 @@ export class ImageSession {
  settings(value){
   this.invalidate();
   try{
-   if(!this.actor||!this._source||!this._bitmap||!this.inputValid)throw Error('Reselect a valid source first');
+   if(!this.actor||!this._source||!this._bitmap||!this.inputValid)throw issue('source_required','Reselect a valid source first');
    const settings=normalizeSettings(this._source,value),g=geometry(this._source,settings),preview=this.dep.render(this._bitmap,g,settings);
    if(this._preview)this.dep.releaseCanvas(this._preview);
    this._preview=preview;this._settings=settings;this._geometry=g;this.blocked=false;return this.state;
-  }catch(e){this.error=e.message;this.blocked=true;throw e;}finally{this.changed();}
+  }catch(e){this.error=e.message;this.problem={code:e.code||'geometry',field:e.field||null};this.blocked=true;throw e;}finally{this.changed();}
  }
  async prepareExport(){
   if(this.exportInFlight)return {status:'busy'};
@@ -89,7 +90,7 @@ export class ImageSession {
    try{pngUrl=this.dep.urlCreate(blob);manifestUrl=this.dep.urlCreate(new Blob([JSON.stringify(manifest,null,2)+'\n'],{type:'application/json'}));}
    catch(e){if(pngUrl)this.dep.urlRevoke(pngUrl);if(manifestUrl)this.dep.urlRevoke(manifestUrl);throw e;}
    this._output={pngUrl,manifestUrl,manifest};return {status:'ready'};
-  }catch(e){if(current()){this.error=e.message;return {status:'error',message:e.message};}return {status:'stale'};}
+  }catch(e){if(current()){this.error=e.message;this.problem={code:'export',field:null};return {status:'error',message:e.message};}return {status:'stale'};}
   finally{this.exportInFlight=false;this.changed();}
  }
 }

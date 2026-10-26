@@ -1,9 +1,9 @@
-const bad=message=>{throw new Error(message);};
+const bad=(message,code='file_format')=>{const e=new Error(message);e.code=code;throw e;};
 const u16=(b,p)=>(b[p]<<8)|b[p+1];
 const u32=(b,p)=>(b[p]*0x1000000)+(b[p+1]<<16)+(b[p+2]<<8)+b[p+3];
 const ascii=(b,p,n)=>String.fromCharCode(...b.subarray(p,p+n));
 function dimensions(width,height) {
- if(!width||!height||width>16000||height>16000||width*height>16000000)bad('Source exceeds dimension/pixel limit');
+ if(!width||!height||width>16000||height>16000||width*height>16000000)bad('Source exceeds dimension/pixel limit','file_limits');
  return {width,height};
 }
 function crc32(bytes,start,end) {
@@ -88,7 +88,7 @@ function jpegHeader(b) {
 // This checks bounded framing and metadata, not complete compressed image validity.
 // Browser decode and exact decoded/header dimension agreement remain mandatory.
 export function inspectImage(bytes) {
- if(!(bytes instanceof Uint8Array)||!bytes.length||bytes.length>8388608)bad('Input must be1–8388608 bytes');
+ if(!(bytes instanceof Uint8Array)||!bytes.length||bytes.length>8388608)bad('Input must be1–8388608 bytes','file_size');
  if(bytes[0]===137)return pngHeader(bytes);
  if(bytes[0]===255&&bytes[1]===216)return jpegHeader(bytes);
  bad('Only single-frame PNG/JPEG are supported');

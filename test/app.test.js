@@ -15,12 +15,14 @@ class Element{
  setAttribute(k,v){this.attributes[k]=String(v);}removeAttribute(k){delete this.attributes[k];if(k==='href')delete this.href;}
  querySelectorAll(){return [];}focus(){}click(){return this.fire('click');}
  getContext(){return{drawImage(){},fillRect(){}};}
- toBlob(fn){fn(new Blob([output(this.width,this.height)],{type:'image/png'}));}
+ toBlob(fn){fn(Element.encodingFailed?null:new Blob([output(this.width,this.height)],{type:'image/png'}));}
 }
 async function app(t,{decode=async()=>bitmap(),demo=async()=>new Response(original),recipes=[]}={}){
+ Element.encodingFailed=false;
  const old={};for(const k of['document','window','fetch','createImageBitmap'])old[k]=globalThis[k];
  const elements=new Map(),el=id=>{if(!elements.has(id))elements.set(id,new Element());return elements.get(id);};
  for(const [id,value]of Object.entries({width:'1000',height:'1000',mode:'contain',matte:'white','crop-x':'0','crop-y':'0','crop-width':'1','crop-height':'1'}))el(id).value=value;
+ el('geometry-form').querySelectorAll=()=>['width','height','crop-x','crop-y','crop-width','crop-height'].map(el);
  const user={name:'alpha',role:'operator',csrf:'synthetic-csrf'};
  globalThis.document={getElementById:el,querySelectorAll:()=>[],createElement:tag=>new Element(tag),documentElement:{lang:'ru'},addEventListener(){},hidden:false};
  globalThis.window={addEventListener(){}};globalThis.createImageBitmap=decode;
@@ -62,4 +64,33 @@ test('refresh during saved-file decode completes exact recipe controls title and
 test('logout suppresses a held image completion including controls title and source',async t=>{
  const held=deferred();let started=false;const{el,choose}=await app(t,{decode:()=>{started=true;return held.promise;},recipes:[saved]});await el('recipe-list').children[0].children[1].children[0].fire('click');await choose(original);await until(()=>started);await el('logout').fire('click');held.resolve(bitmap());await tick();await tick();
  assert.equal(el('source-hash').textContent,'');assert.equal(el('recipe-title').value,'');assert.equal(el('workspace').hidden,true);assert.equal(el('pending-recipe').hidden,true);assert.equal(el('prepare').disabled,true);
+});
+// UI F1: a rejected first file cannot claim an unavailable previous result exists.
+test('rejection distinguishes empty first selection from an actually retained replacement preview',async t=>{
+ const{el,choose}=await app(t,{recipes:[saved]});await el('recipe-list').children[0].children[1].children[0].fire('click');await choose(newer);await until(()=>el('message').textContent.includes('Файл не принят'));
+ assert.doesNotMatch(el('message').textContent,/Последний корректный результат сохранён/);assert.equal(el('source-hash').textContent,'');assert.equal(el('prepare').disabled,true);assert.ok(el('export-state').textContent.includes(sha(original)));
+ await choose(original);await until(()=>el('source-hash').textContent.includes(sha(original)));await choose(Buffer.from('<svg/>'));await until(()=>el('message').textContent.includes('сохранён'));
+ assert.ok(el('source-hash').textContent.includes(sha(original)));assert.match(el('message').textContent,/сохранён/);assert.equal(el('prepare').disabled,true);
+});
+// UI F2: source-dependent limits must be actionable even though native min/max accept X.
+test('crop error identifies X and its source bound in RU and KK with an associated invalid field',async t=>{
+ const{el,choose}=await app(t);await choose(original);await until(()=>el('source-hash').textContent.includes(sha(original)));
+ for(const language of['ru','kk']){el('language').value=language;await el('language').fire('change');el('mode').value='crop';el('crop-x').value='3';el('crop-y').value='0';el('crop-width').value='1';el('crop-height').value='1';await el('geometry-form').fire('input');
+  const message=el('export-state').textContent;assert.match(message,/X/);assert.match(message,/0–2/);assert.doesNotMatch(message,/Invalid|Reselect|Crop exceeds/);assert.equal(el('crop-x').attributes['aria-invalid'],'true');assert.equal(el('crop-x').attributes['aria-describedby'],'export-state');assert.equal(el('prepare').disabled,true);
+ }
+ el('crop-x').value='2';await el('geometry-form').fire('input');assert.equal(el('crop-x').attributes['aria-invalid'],undefined);assert.equal(el('prepare').disabled,false);
+});
+test('unsupported file recovery is localized in both UI languages without parser implementation text',async t=>{
+ const{el,choose}=await app(t);for(const language of['ru','kk']){el('language').value=language;await el('language').fire('change');await choose(Buffer.from('<svg/>'));await until(()=>!el('export-state').textContent.includes('декод'));
+  const message=el('export-state').textContent;assert.match(message,/PNG\/JPEG/);assert.doesNotMatch(message,/Only single-frame|supported|Input must|File must/);assert.match(message,language==='ru'?/Выберите/:/таңдаңыз/);
+ }
+});
+test('encoding failure uses localized export recovery instead of raw encoder text',async t=>{
+ const{el,choose}=await app(t);await choose(original);await until(()=>el('source-hash').textContent.includes(sha(original)));el('language').value='kk';await el('language').fire('change');Element.encodingFailed=true;await el('prepare').fire('click');
+ assert.doesNotMatch(el('message').textContent,/encoding failed/);assert.match(el('message').textContent,/PNG/);assert.match(el('message').textContent,/қайта/);assert.equal(el('download-png').href,undefined);
+});
+// UI F3: clearing identity must clear visible geometry, but metadata refresh must not.
+test('identity reset restores visible geometry defaults while same-account refresh preserves live values',async t=>{
+ const{el,choose}=await app(t);await choose(original);await until(()=>el('source-hash').textContent.includes(sha(original)));el('mode').value='crop';el('width').value='111';el('height').value='112';el('matte').value='transparent';el('crop-x').value='1';el('crop-y').value='0';el('crop-width').value='2';el('crop-height').value='2';await el('geometry-form').fire('input');await el('refresh').fire('click');assert.equal(el('width').value,'111');assert.equal(el('mode').value,'crop');
+ await el('logout').fire('click');for(const[id,want]of Object.entries({width:'1000',height:'1000',mode:'contain',matte:'white','crop-x':'0','crop-y':'0','crop-width':'1','crop-height':'1'}))assert.equal(String(el(id).value),want,id);assert.equal(el('crop-fields').hidden,true);assert.equal(el('prepare').disabled,true);assert.equal(el('source-hash').textContent,'');
 });
