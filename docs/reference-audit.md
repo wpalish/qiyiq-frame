@@ -1,0 +1,9 @@
+# Reference21 source boundary
+
+Prior source screen26Oct2026 04:30UTC, recorded04:40:30UTC; no fresh contact/vendor capability audit claimed during implementation. Official Photoroom https://www.photoroom.com/ described AI/background/batch functions; these vendor claims were not tested/copied. Our limited original workflow is one owned/synthetic image, manual integer crop/contain, PNG and geometry metadata; no AI/removal/scenes/bulk/vendor assets.
+
+Kaspi inspected snapshots: https://guide.kaspi.kz/partner/ru/shop/goods/card/q2233 displayed updated2024-12-27 and https://guide.kaspi.kz/partner/ru/shop/goods/edit/q2968 displayed updated2026-04-10. Inspected pages stated500×500–5000×5000 and up to25Mb, with separate submission/review;1000square/white background were not stated there, not a claim about all category rules. Our1000default and8MiB/16MP/input/output100–3000limits are our own choices, not approval or exact adoption of Mb. Numeric geometry cannot assess content, focus, watermark, rights, complete kit or moderation.
+
+Technical primary references read during implementation: https://developer.mozilla.org/en-US/docs/Web/API/Window/createImageBitmap (EXIF-dependent default orientation is why bounded version rejects EXIF), https://developer.mozilla.org/en-US/docs/Web/API/CanvasRenderingContext2D/drawImage and https://www.w3.org/TR/png-3/ (animation chunks/eXIf). Actual Chrome pixel regression found interpolation outside an unmaterialized crop; own scratch canvas fix verified on exported pixels. This is scoped evidence, not a full format-security audit.
+
+Noto Sans source metadata https://github.com/google/fonts/blob/main/ofl/notosans/METADATA.pb; font/adjacent OFL fetched from official google/fonts and self-hosted. Image fixtures are exact authored RGBA quadrants; no third-party photographs.

@@ -1,0 +1,2 @@
+# QiyiqFrame
+Implement the bounded contract in PRODUCT.md and docs/contract.md. Native Node24 ESM/SQLite; no paid services, image uploads or vendor code/assets. Own synthetic fixtures only. Private auth/SQLite/.data/.env never enter Git or archives. Frozen recipes are metadata, not proof of real pixels/downloads/rights. Run meaningful geometry/parser/controller/store/HTTP verification and real browser export before completion. Preserve existing runtimes and owner data.

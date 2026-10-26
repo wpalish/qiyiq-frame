@@ -1,0 +1,10 @@
+.data/
+private/
+.env
+.env.*
+*.sqlite
+*.sqlite-*
+node_modules/
+.impeccable/direction-options.json
+.impeccable/mocks/
+.superpowers/
