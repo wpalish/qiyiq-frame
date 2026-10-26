@@ -33,7 +33,10 @@ async function app(t,{decode=async()=>bitmap(),demo=async()=>new Response(origin
  const choose=async bytes=>{el('image-file').files=[file(bytes)];await el('image-file').fire('change');};
  return{el,choose};
 }
-async function until(condition){for(let n=0;n<100;n++){if(condition())return;await tick();}assert.fail('UI condition did not settle');}
+// WebCrypto runs outside the JS turn. A fixed setImmediate iteration budget can
+// expire in milliseconds on CI before its worker completes; observe the same
+// actual UI condition with a bounded elapsed-time deadline instead.
+async function until(condition){const deadline=performance.now()+2000;while(performance.now()<deadline){if(condition())return;await new Promise(resolve=>setTimeout(resolve,10));}assert.fail('UI condition did not settle within 2000ms');}
 const saved={id:'11111111-1111-4111-8111-111111111111',title:'SYN_SAVED_CROP',owner:'alpha',createdAt:'2026-10-26T00:00:00.000Z',archivedAt:null,source:{format:'png',sha256:sha(original),byteLength:original.length,width:3,height:2},settings:{mode:'crop',width:123,height:124,matte:'transparent',crop:{x:1,y:0,width:2,height:2}}};
 
 // Break caught: a demo fetch claims its generation too late and overwrites a newer file.

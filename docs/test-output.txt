@@ -6,361 +6,361 @@ TAP version 13
 # Subtest: demo intent immediately removes downloads and held response cannot replace newer local file
 ok 1 - demo intent immediately removes downloads and held response cannot replace newer local file
   ---
-  duration_ms: 38.019875
+  duration_ms: 60.358291
   type: 'test'
   ...
 # Subtest: settings and later recipe selection cancel a held demo without loading its bytes
 ok 2 - settings and later recipe selection cancel a held demo without loading its bytes
   ---
-  duration_ms: 2.828125
+  duration_ms: 23.727458
   type: 'test'
   ...
 # Subtest: same-account metadata refresh during decode reconciles accepted default geometry into controls
 ok 3 - same-account metadata refresh during decode reconciles accepted default geometry into controls
   ---
-  duration_ms: 2.18325
+  duration_ms: 35.706041
   type: 'test'
   ...
 # Subtest: refresh during saved-file decode completes exact recipe controls title and pending selection
 ok 4 - refresh during saved-file decode completes exact recipe controls title and pending selection
   ---
-  duration_ms: 1.631834
+  duration_ms: 38.377625
   type: 'test'
   ...
 # Subtest: logout suppresses a held image completion including controls title and source
 ok 5 - logout suppresses a held image completion including controls title and source
   ---
-  duration_ms: 1.379208
+  duration_ms: 24.173166
   type: 'test'
   ...
 # Subtest: rejection distinguishes empty first selection from an actually retained replacement preview
 ok 6 - rejection distinguishes empty first selection from an actually retained replacement preview
   ---
-  duration_ms: 2.098291
+  duration_ms: 47.94425
   type: 'test'
   ...
 # Subtest: crop error identifies X and its source bound in RU and KK with an associated invalid field
 ok 7 - crop error identifies X and its source bound in RU and KK with an associated invalid field
   ---
-  duration_ms: 1.490667
+  duration_ms: 26.146709
   type: 'test'
   ...
 # Subtest: unsupported file recovery is localized in both UI languages without parser implementation text
 ok 8 - unsupported file recovery is localized in both UI languages without parser implementation text
   ---
-  duration_ms: 1.2455
+  duration_ms: 36.570541
   type: 'test'
   ...
 # Subtest: encoding failure uses localized export recovery instead of raw encoder text
 ok 9 - encoding failure uses localized export recovery instead of raw encoder text
   ---
-  duration_ms: 1.429
+  duration_ms: 25.8635
   type: 'test'
   ...
 # Subtest: identity reset restores visible geometry defaults while same-account refresh preserves live values
 ok 10 - identity reset restores visible geometry defaults while same-account refresh preserves live values
   ---
-  duration_ms: 1.531958
+  duration_ms: 26.201042
   type: 'test'
   ...
 # Subtest: decoded/header agreement creates preview and default geometry while bytes never enter metadata
 ok 11 - decoded/header agreement creates preview and default geometry while bytes never enter metadata
   ---
-  duration_ms: 2.206458
+  duration_ms: 1.221
   type: 'test'
   ...
 # Subtest: wrong decoded dimensions close replacement and preserve last source but block stale export
 ok 12 - wrong decoded dimensions close replacement and preserve last source but block stale export
   ---
-  duration_ms: 0.425708
+  duration_ms: 0.314959
   type: 'test'
   ...
 # Subtest: invalid magic and excessive file size refuse before browser decoder allocation
 ok 13 - invalid magic and excessive file size refuse before browser decoder allocation
   ---
-  duration_ms: 0.122875
+  duration_ms: 0.113792
   type: 'test'
   ...
 # Subtest: later selected file suppresses held old decode and serializes allocation
 ok 14 - later selected file suppresses held old decode and serializes allocation
   ---
-  duration_ms: 3.340833
+  duration_ms: 2.230083
   type: 'test'
   ...
 # Subtest: settings change invalidates prepared URLs and never mutates source metadata
 ok 15 - settings change invalidates prepared URLs and never mutates source metadata
   ---
-  duration_ms: 3.325666
+  duration_ms: 7.019209
   type: 'test'
   ...
 # Subtest: manifest binds actual encoded PNG bytes/dimensions to exact source and normalized geometry
 ok 16 - manifest binds actual encoded PNG bytes/dimensions to exact source and normalized geometry
   ---
-  duration_ms: 0.511
+  duration_ms: 0.492125
   type: 'test'
   ...
 # Subtest: late encoded result after geometry change cannot expose download URLs
 ok 17 - late encoded result after geometry change cannot expose download URLs
   ---
-  duration_ms: 0.297333
+  duration_ms: 0.291458
   type: 'test'
   ...
 # Subtest: encoded output wrong dimensions refuses without downloadable manifest
 ok 18 - encoded output wrong dimensions refuses without downloadable manifest
   ---
-  duration_ms: 0.334584
+  duration_ms: 0.254417
   type: 'test'
   ...
 # Subtest: same file reopens frozen geometry only after full fingerprint verification
 ok 19 - same file reopens frozen geometry only after full fingerprint verification
   ---
-  duration_ms: 0.308375
+  duration_ms: 0.191125
   type: 'test'
   ...
 # Subtest: wrong source for saved recipe refuses without overwriting previous settings or snapshot
 ok 20 - wrong source for saved recipe refuses without overwriting previous settings or snapshot
   ---
-  duration_ms: 0.309542
+  duration_ms: 0.255291
   type: 'test'
   ...
 # Subtest: identity change clears bitmap/canvas/URLs and late old load cannot return
 ok 21 - identity change clears bitmap/canvas/URLs and late old load cannot return
   ---
-  duration_ms: 0.327541
+  duration_ms: 0.326167
   type: 'test'
   ...
 # Subtest: invalid numeric settings disable export and double preparation is not queued for resend
 ok 22 - invalid numeric settings disable export and double preparation is not queued for resend
   ---
-  duration_ms: 0.412791
+  duration_ms: 0.338791
   type: 'test'
   ...
 # Subtest: failed replacement stays blocked when geometry changes until a valid file is reselected
 ok 23 - failed replacement stays blocked when geometry changes until a valid file is reselected
   ---
-  duration_ms: 0.401708
+  duration_ms: 0.329208
   type: 'test'
   ...
 # Subtest: queued reopen freezes the selected recipe immediately and identity change rejects held decode
 ok 24 - queued reopen freezes the selected recipe immediately and identity change rejects held decode
   ---
-  duration_ms: 2.337917
+  duration_ms: 1.609458
   type: 'test'
   ...
 # Subtest: generated PNG above input budget exports exact bytes while source selection still refuses it
 ok 25 - generated PNG above input budget exports exact bytes while source selection still refuses it
   ---
-  duration_ms: 1027.671916
+  duration_ms: 1034.38975
   type: 'test'
   ...
 # Subtest: contain rounds odd margins deterministically without clipping source
 ok 26 - contain rounds odd margins deterministically without clipping source
   ---
-  duration_ms: 1.08225
+  duration_ms: 0.744083
   type: 'test'
   ...
 # Subtest: contain handles portrait and one-pixel dimension without a zero-size draw
 ok 27 - contain handles portrait and one-pixel dimension without a zero-size draw
   ---
-  duration_ms: 0.114666
+  duration_ms: 0.101
   type: 'test'
   ...
 # Subtest: crop keeps exact integer rectangle and makes distortion/upscaling explicit
 ok 28 - crop keeps exact integer rectangle and makes distortion/upscaling explicit
   ---
-  duration_ms: 0.732042
+  duration_ms: 0.612
   type: 'test'
   ...
 # Subtest: recipe normalizes title but never changes frozen source or settings
 ok 29 - recipe normalizes title but never changes frozen source or settings
   ---
-  duration_ms: 0.849875
+  duration_ms: 0.321333
   type: 'test'
   ...
 # Subtest: strict keys and actual types reject forged metadata and coercion
 ok 30 - strict keys and actual types reject forged metadata and coercion
   ---
-  duration_ms: 0.845166
+  duration_ms: 0.612542
   type: 'test'
   ...
 # Subtest: source pixel and output limits refuse overflow, nonfinite and fractional numbers
 ok 31 - source pixel and output limits refuse overflow, nonfinite and fractional numbers
   ---
-  duration_ms: 0.440583
+  duration_ms: 0.411791
   type: 'test'
   ...
 # Subtest: crop refuses rectangles outside source, fractions and ignored contain coordinates
 ok 32 - crop refuses rectangles outside source, fractions and ignored contain coordinates
   ---
-  duration_ms: 0.362084
+  duration_ms: 0.503334
   type: 'test'
   ...
 # Subtest: UTF16 title limit applies after outer trim and rejects empty actual strings
 ok 33 - UTF16 title limit applies after outer trim and rejects empty actual strings
   ---
-  duration_ms: 0.186375
+  duration_ms: 0.242459
   type: 'test'
   ...
 # Subtest: PNG reads dimensions only after complete bounded chunk/CRC validation
 ok 34 - PNG reads dimensions only after complete bounded chunk/CRC validation
   ---
-  duration_ms: 0.933167
+  duration_ms: 1.747167
   type: 'test'
   ...
 # Subtest: PNG rejects actual CRC corruption, truncated framing and trailing bytes
 ok 35 - PNG rejects actual CRC corruption, truncated framing and trailing bytes
   ---
-  duration_ms: 0.479583
+  duration_ms: 0.628583
   type: 'test'
   ...
 # Subtest: PNG rejects animation, EXIF and unknown critical chunks even with correct CRC
 ok 36 - PNG rejects animation, EXIF and unknown critical chunks even with correct CRC
   ---
-  duration_ms: 0.282333
+  duration_ms: 0.569
   type: 'test'
   ...
 # Subtest: PNG rejects duplicate/out-of-order headers and invalid image methods
 ok 37 - PNG rejects duplicate/out-of-order headers and invalid image methods
   ---
-  duration_ms: 0.181875
+  duration_ms: 0.193959
   type: 'test'
   ...
 # Subtest: PNG refuses declared decompression budget before invoking a decoder
 ok 38 - PNG refuses declared decompression budget before invoking a decoder
   ---
-  duration_ms: 0.154417
+  duration_ms: 0.308417
   type: 'test'
   ...
 # Subtest: JPEG framing accepts baseline/progressive headers and stuffed/restart scan bytes
 ok 39 - JPEG framing accepts baseline/progressive headers and stuffed/restart scan bytes
   ---
-  duration_ms: 0.184125
+  duration_ms: 0.500458
   type: 'test'
   ...
 # Subtest: JPEG rejects EXIF and MPF instead of silently guessing orientation/frame
 ok 40 - JPEG rejects EXIF and MPF instead of silently guessing orientation/frame
   ---
-  duration_ms: 0.103958
+  duration_ms: 0.270417
   type: 'test'
   ...
 # Subtest: JPEG rejects unsupported frames, length overruns, absent scan and nonfinal EOI
 ok 41 - JPEG rejects unsupported frames, length overruns, absent scan and nonfinal EOI
   ---
-  duration_ms: 0.796208
+  duration_ms: 0.184959
   type: 'test'
   ...
 # Subtest: magic and byte limits reject SVG/GIF/WebP, labels cannot override contents
 ok 42 - magic and byte limits reject SVG/GIF/WebP, labels cannot override contents
   ---
-  duration_ms: 0.347458
+  duration_ms: 0.287917
   type: 'test'
   ...
 # Subtest: public health/config safe; authenticated workspace and no-store are explicit
 ok 43 - public health/config safe; authenticated workspace and no-store are explicit
   ---
-  duration_ms: 190.250583
+  duration_ms: 182.525542
   type: 'test'
   ...
 # Subtest: real HTTP create then shared read returns frozen normalized recipe and owner
 ok 44 - real HTTP create then shared read returns frozen normalized recipe and owner
   ---
-  duration_ms: 156.935125
+  duration_ms: 159.442125
   type: 'test'
   ...
 # Subtest: origin, CSRF, methods, query and encoded paths refuse without workspace/audit writes
 ok 45 - origin, CSRF, methods, query and encoded paths refuse without workspace/audit writes
   ---
-  duration_ms: 154.850292
+  duration_ms: 156.505917
   type: 'test'
   ...
 # Subtest: strict JSON duplicate decoded keys, unknown fields and UTF8 do not coerce commands
 ok 46 - strict JSON duplicate decoded keys, unknown fields and UTF8 do not coerce commands
   ---
-  duration_ms: 156.6405
+  duration_ms: 157.574292
   type: 'test'
   ...
 # Subtest: creator-only archive, stale revision and repeated UUID each preserve whole state/audit
 ok 47 - creator-only archive, stale revision and repeated UUID each preserve whole state/audit
   ---
-  duration_ms: 159.714666
+  duration_ms: 159.751959
   type: 'test'
   ...
 # Subtest: there is no image upload route and oversized JSON refuses atomically
 ok 48 - there is no image upload route and oversized JSON refuses atomically
   ---
-  duration_ms: 152.768375
+  duration_ms: 156.170667
   type: 'test'
   ...
 # Subtest: logout revokes server session, duplicate session cookies and operator admin routes refuse
 ok 49 - logout revokes server session, duplicate session cookies and operator admin routes refuse
   ---
-  duration_ms: 157.132209
+  duration_ms: 164.354209
   type: 'test'
   ...
 # Subtest: actual HTTP backup and empty restore keep recipes exact; corrupt copies refuse
 ok 50 - actual HTTP backup and empty restore keep recipes exact; corrupt copies refuse
   ---
-  duration_ms: 286.0945
+  duration_ms: 300.772167
   type: 'test'
   ...
 # Subtest: create freezes normalized source/geometry/owner/time and GET does not write
 ok 51 - create freezes normalized source/geometry/owner/time and GET does not write
   ---
-  duration_ms: 10.284167
+  duration_ms: 6.073334
   type: 'test'
   ...
 # Subtest: archive preserves original metadata and only original creator may hide
 ok 52 - archive preserves original metadata and only original creator may hide
   ---
-  duration_ms: 0.798416
+  duration_ms: 2.315167
   type: 'test'
   ...
 # Subtest: stale global revision, reused global key and client owner/time fail atomically
 ok 53 - stale global revision, reused global key and client owner/time fail atomically
   ---
-  duration_ms: 0.530459
+  duration_ms: 1.654167
   type: 'test'
   ...
 # Subtest: role is rechecked against current account and fabricated actors do not write
 ok 54 - role is rechecked against current account and fabricated actors do not write
   ---
-  duration_ms: 0.299083
+  duration_ms: 0.753917
   type: 'test'
   ...
 # Subtest: clock rollback rejects writes, exact last-event time is allowed
 ok 55 - clock rollback rejects writes, exact last-event time is allowed
   ---
-  duration_ms: 0.427291
+  duration_ms: 1.571125
   type: 'test'
   ...
 # Subtest: frozen arrays returned to callers cannot mutate persistent recipes
 ok 56 - frozen arrays returned to callers cannot mutate persistent recipes
   ---
-  duration_ms: 0.290625
+  duration_ms: 0.814333
   type: 'test'
   ...
 # Subtest: file reopen preserves whole workspace/audit and duplicate command refusal
 ok 57 - file reopen preserves whole workspace/audit and duplicate command refusal
   ---
-  duration_ms: 5.745459
+  duration_ms: 4.809042
   type: 'test'
   ...
 # Subtest: admin empty restore keeps recipes exact, excludes accounts/audit and appends one event
 ok 58 - admin empty restore keeps recipes exact, excludes accounts/audit and appends one event
   ---
-  duration_ms: 2.161166
+  duration_ms: 0.925667
   type: 'test'
   ...
 # Subtest: restore refuses corrupt binding, duplicate immutable rows, missing keys and derived geometry
 ok 59 - restore refuses corrupt binding, duplicate immutable rows, missing keys and derived geometry
   ---
-  duration_ms: 2.738583
+  duration_ms: 2.452875
   type: 'test'
   ...
 # Subtest: restore rejects foreign format, future time, nonadmin and absent referenced accounts
 ok 60 - restore rejects foreign format, future time, nonadmin and absent referenced accounts
   ---
-  duration_ms: 0.538
+  duration_ms: 0.543791
   type: 'test'
   ...
 1..60
@@ -371,4 +371,4 @@ ok 60 - restore rejects foreign format, future time, nonadmin and absent referen
 # cancelled 0
 # skipped 0
 # todo 0
-# duration_ms 1493.364334
+# duration_ms 1507.490792

@@ -1,0 +1,10 @@
+{
+  "initial_ci": "https://github.com/wpalish/qiyiq-frame/actions/runs/40326277974",
+  "initial_head": "7a3f2b624df3f01cd73b7c32e2a8a9fd931e1981",
+  "observed": "58pass/2fail: UI helper iteration deadline expired; dependent pending completion contaminated next fixture title",
+  "root_cause": "100 setImmediate iterations can finish before asynchronous WebCrypto digest; not an elapsed-time budget",
+  "reproduction": "Test-only40ms digest scheduler perturbation: old helper1pass/9fail, fixed helper10pass/0fail",
+  "fix": "Wait for the same actual rendered UI condition, poll10ms with2000ms deadline. No assertions removed and no production source changed.",
+  "current_suite": "60unique tests pass; this replay adds no tests",
+  "scope": "Node test harness scheduling, not another browser run/security audit"
+}

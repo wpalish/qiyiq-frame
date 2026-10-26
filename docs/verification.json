@@ -20,7 +20,8 @@
     "scope": "60current unique automated cases, not sums of repeated runs; pixel/HTTP acceptance/documentation checks recorded separately",
     "final_command": "npm test (node --test --test-reporter=tap test/*.test.js)",
     "final_log": "docs/test-output.txt",
-    "final_log_sha256": "2012b611ed321ab7818189ae149edc6311b420db0a63e6182dea6311b0046b18"
+    "final_log_sha256": "a3dbed1d80aa65e42475d38503d3ceaa2b3f36ec8b3b234937a6c5d2abebd4c8",
+    "ci_recovery": "docs/ci-recovery.json"
   },
   "browser": {
     "status": "ui_workflow_passed",
