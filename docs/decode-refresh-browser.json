@@ -1,0 +1,18 @@
+{
+  "at": "2026-10-26T12:06:51.153Z",
+  "held": {
+    "export": "Чтение и декодирование файла…",
+    "qa": "{\"heldDemo\":false,\"heldDecode\":true,\"actor\":\"qa_alpha\"}",
+    "width": "777"
+  },
+  "done": {
+    "height": "1000",
+    "pending": false,
+    "prepareDisabled": false,
+    "qa": "{\"heldDemo\":false,\"heldDecode\":false,\"actor\":\"qa_alpha\"}",
+    "result": "1000×1000px · contain · white",
+    "source": "SHA256 453c92b2eb021c8982663ce4d1154c40008b58e22f314ff99f70688bfd48f23b",
+    "width": "1000"
+  },
+  "scope": "actual Chrome/unmodified app and decoder; held decode completion; synthetic API fixture; same account metadata refresh; no DB writes"
+}

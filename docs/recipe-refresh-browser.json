@@ -1,0 +1,12 @@
+{
+  "at": "2026-10-26T12:07:57.857Z",
+  "cropX": "3",
+  "height": "124",
+  "mode": "crop",
+  "pending": false,
+  "prepareDisabled": false,
+  "result": "123×124px · crop · transparent",
+  "title": "SYN_QA_SAVED_CROP",
+  "width": "123",
+  "scope": "actual Chrome/real bitmap/unmodified app; static synthetic recipe API fixture, not a server save or authentication check"
+}

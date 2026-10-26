@@ -1,4 +1,4 @@
-# QiyiqFrame0.1 — local implementation in progress
+# QiyiqFrame0.1 — bounded manual image workflow
 
 Original bounded manual crop/contain editor inspired by the one-image task, not Photoroom code/branding, AI or background removal. Native Node24.15–24.x ESM/SQLite, no dependencies or external API. Server stores metadata recipes, not images; browser pixels and download are checked separately. This is not marketplace approval, proof of rights, quality or full tenant/security certification.
 
@@ -8,11 +8,11 @@ ADMIN_USER=your_local_name ADMIN_PASSWORD=your_long_synthetic_password npm start
 
 Create only synthetic local accounts/images. Host127.0.0.1, PORT3000 (optional), DATABASE.data/qiyiq.sqlite (optional). Password>=14characters, no default. Keep .data/auth/private files outside Git/archives. Admin can create accounts through the interface. All authenticated accounts see shared metadata; only creator archives. No delete/unarchive/edit of frozen recipes.
 
-Input: one PNG/JPEG<=8MiB/16MP; parser rejects EXIF/MPF/APNG/eXIf and browser must decode matching dimensions. Output100–3000px each. Crop is an explicit integer source rectangle, materialized before interpolation to prevent neighboring pixels bleeding into the crop. Different aspect ratios stretch; enlargement does not restore detail. White matte fills transparency too. PNG preparation creates two separate explicit download links (image+manifest); preparation is not downloading.
+Input: one PNG/JPEG<=8MiB/16MP; parser rejects EXIF/MPF/APNG/eXIf and browser must decode matching dimensions. Output100–3000px each, PNG encoding bounded separately at40MiB. Crop is an explicit integer source rectangle, materialized before interpolation to prevent neighboring pixels bleeding into the crop. Different aspect ratios stretch; enlargement does not restore detail. White matte fills transparency too. PNG preparation creates two separate explicit download links (image+manifest); preparation is not downloading.
 
 Save freezes metadata sourceSHA/geometry/title/owner/time; reopen requires exact source file. In-app metadata refresh preserves same-account live input; full reload may lose file/drafts; identity change clears interface input and revokes URLs. These are scoped implementation behaviors, not erasure of knowledge or copies. Unknown network write outcome requires refresh, never automatic resend.
 
-Current evidence:49Node tests,7isolated actual Chromium pixel cases; a browser crop-edge regression was found and fixed. Full product UI/mobile/restart/preservation/review/publication remain pending. Not a published or counted39th product. Full contract docs/contract.md, ledger docs/implementation-ledger.md.
+Current evidence:60Node tests in explicitTAP/0fail/skip/todo,7isolated actual Chromium pixel cases and one actual high-entropy JPEG→PNG above8MiB. Browser crop-edge, output-budget and asynchronous generation regressions were found and fixed. Actual1126/400 UI, native keyboard, stale preservation, own restart at2/all5tables/67prior databases, current6/audit6,15authenticated refusals and separate private-file empty restore are recorded. A full UI/source review found3truth/recovery issues; a scoped verdict scored all3resolved after9current recaptures. Programme publication metadata is tracked separately; repository source is not a hosted SaaS. Full contract docs/contract.md, ledger docs/implementation-ledger.md.
 
 ```sh
 npm test

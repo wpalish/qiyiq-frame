@@ -1,0 +1,2047 @@
+{
+  "at": "2026-10-26T12:46:01.024230+00:00",
+  "scope": "Original actual native workflow,14full-review current states before presentation fixes plus9finalfix current captures. Ordinary JPEG viewport sections/DPR1, not fullpage/touch/screenreader/1440/performance/security/publicserver audit.",
+  "mainFinal": {
+    "revision": 6,
+    "audit": 6,
+    "recipes": 5,
+    "keys": 6,
+    "archived": 1
+  },
+  "captureRecords": [
+    {
+      "name": "qiyiq-stale-input-before-display-fix1126",
+      "pre": {
+        "clientWidth": 1126,
+        "dpr": 2,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 694,
+        "sourceCanvasCssWidth": 6,
+        "sourceCanvasWidth": 6,
+        "width": 1126
+      },
+      "post": {
+        "clientWidth": 1126,
+        "dpr": 2,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 694,
+        "sourceCanvasCssWidth": 6,
+        "sourceCanvasWidth": 6,
+        "width": 1126
+      },
+      "raw": "outputs/products/qiyiq-stale-input-before-display-fix1126.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-stale-input-before-display-fix1126.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-stale-input-before-display-fix1126.jpg",
+      "sha256": "af7e9c7d5033277c8381f25544ec74ca8deeb3e65456011af779640ffde6e156",
+      "source": {
+        "app.js": "fb7369ffa2949eac67a68c37148d2478236b118491489fdc44fa21e26bebec1f",
+        "styles.css": "7cdf3ce7d9a98c99549cef4676549c0b8d0882375eab73eae910f1c570ce3ab2",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "ba77aa59eea7844f86889df028e4e8ba5262a17a19b08293a19cc4ca847bb824",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "31a40e773a80ebba9f5b7129bd68b2c406ad549e3a22a6e0f627e43023a25258"
+      },
+      "scope": "workflow before display-only CSS fix;not current visual review",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-stale-top-before-display-fix1126",
+      "pre": {
+        "clientWidth": 1126,
+        "dpr": 2,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "sourceCanvasCssWidth": 6,
+        "sourceCanvasWidth": 6,
+        "width": 1126
+      },
+      "post": {
+        "clientWidth": 1126,
+        "dpr": 2,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "sourceCanvasCssWidth": 6,
+        "sourceCanvasWidth": 6,
+        "width": 1126
+      },
+      "raw": "outputs/products/qiyiq-stale-top-before-display-fix1126.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-stale-top-before-display-fix1126.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-stale-top-before-display-fix1126.jpg",
+      "sha256": "dd4c6b00a9e8b09caa67b91259238e6101845552e0fd9064a3f06cb2c13d861d",
+      "source": {
+        "app.js": "fb7369ffa2949eac67a68c37148d2478236b118491489fdc44fa21e26bebec1f",
+        "styles.css": "7cdf3ce7d9a98c99549cef4676549c0b8d0882375eab73eae910f1c570ce3ab2",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "ba77aa59eea7844f86889df028e4e8ba5262a17a19b08293a19cc4ca847bb824",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "31a40e773a80ebba9f5b7129bd68b2c406ad549e3a22a6e0f627e43023a25258"
+      },
+      "scope": "workflow before display-only CSS fix;not current visual review",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-current-empty-with-saved-recipes1126",
+      "pre": {
+        "clientWidth": 1126,
+        "dpr": 2,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "width": 1126
+      },
+      "post": {
+        "clientWidth": 1126,
+        "dpr": 2,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "width": 1126
+      },
+      "raw": "outputs/products/qiyiq-current-empty-with-saved-recipes1126.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-current-empty-with-saved-recipes1126.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-current-empty-with-saved-recipes1126.jpg",
+      "sha256": "5d598f8ccb06421e91939b416d362c6b2e918bd77bcb918232b60a9d79b1154b",
+      "source": {
+        "app.js": "245956df218ad10aa1969d451c73cf2ac1eb4161159afc61f9cc92d60e003a8a",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "ba77aa59eea7844f86889df028e4e8ba5262a17a19b08293a19cc4ca847bb824",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "31a40e773a80ebba9f5b7129bd68b2c406ad549e3a22a6e0f627e43023a25258"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-current-wrong-source1126",
+      "pre": {
+        "clientWidth": 1126,
+        "dpr": 2,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "width": 1126
+      },
+      "post": {
+        "clientWidth": 1126,
+        "dpr": 2,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "width": 1126
+      },
+      "raw": "outputs/products/qiyiq-current-wrong-source1126.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-current-wrong-source1126.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-current-wrong-source1126.jpg",
+      "sha256": "478499469a0833cb4b336e685542127d111151ce1b4ed16f8c31f33f6003adb0",
+      "source": {
+        "app.js": "245956df218ad10aa1969d451c73cf2ac1eb4161159afc61f9cc92d60e003a8a",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "ba77aa59eea7844f86889df028e4e8ba5262a17a19b08293a19cc4ca847bb824",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "31a40e773a80ebba9f5b7129bd68b2c406ad549e3a22a6e0f627e43023a25258"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-current-prepared-contain1126",
+      "pre": {
+        "clientWidth": 1126,
+        "dpr": 2,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "sourceCanvasCssWidth": 341,
+        "sourceCanvasWidth": 6,
+        "width": 1126
+      },
+      "post": {
+        "clientWidth": 1126,
+        "dpr": 2,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "sourceCanvasCssWidth": 341,
+        "sourceCanvasWidth": 6,
+        "width": 1126
+      },
+      "raw": "outputs/products/qiyiq-current-prepared-contain1126.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-current-prepared-contain1126.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-current-prepared-contain1126.jpg",
+      "sha256": "fff92205d736a353545c2f6ab5c0375766d9d5f4a9bddd667b664d5e6e31e92e",
+      "source": {
+        "app.js": "245956df218ad10aa1969d451c73cf2ac1eb4161159afc61f9cc92d60e003a8a",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "ba77aa59eea7844f86889df028e4e8ba5262a17a19b08293a19cc4ca847bb824",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "31a40e773a80ebba9f5b7129bd68b2c406ad549e3a22a6e0f627e43023a25258"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-current-crop-export-controls1126",
+      "pre": {
+        "clientWidth": 1126,
+        "dpr": 2,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 1044.5,
+        "sourceCanvasCssWidth": 341,
+        "sourceCanvasWidth": 6,
+        "width": 1126
+      },
+      "post": {
+        "clientWidth": 1126,
+        "dpr": 2,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 1044.5,
+        "sourceCanvasCssWidth": 341,
+        "sourceCanvasWidth": 6,
+        "width": 1126
+      },
+      "raw": "outputs/products/qiyiq-current-crop-export-controls1126.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-current-crop-export-controls1126.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-current-crop-export-controls1126.jpg",
+      "sha256": "62c6ab8b8af0f15fd9171e2b9e4915f70a464ae12f4fa5bffa4e9e5f15b6e544",
+      "source": {
+        "app.js": "245956df218ad10aa1969d451c73cf2ac1eb4161159afc61f9cc92d60e003a8a",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "ba77aa59eea7844f86889df028e4e8ba5262a17a19b08293a19cc4ca847bb824",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "31a40e773a80ebba9f5b7129bd68b2c406ad549e3a22a6e0f627e43023a25258"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-current-crop-top1126",
+      "pre": {
+        "clientWidth": 1126,
+        "dpr": 2,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "sourceCanvasCssWidth": 341,
+        "sourceCanvasWidth": 6,
+        "width": 1126
+      },
+      "post": {
+        "clientWidth": 1126,
+        "dpr": 2,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "sourceCanvasCssWidth": 341,
+        "sourceCanvasWidth": 6,
+        "width": 1126
+      },
+      "raw": "outputs/products/qiyiq-current-crop-top1126.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-current-crop-top1126.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-current-crop-top1126.jpg",
+      "sha256": "97ff5eae69251058f57004e7a54166a946fd01881a2dc41fd09b719f9fd4264c",
+      "source": {
+        "app.js": "245956df218ad10aa1969d451c73cf2ac1eb4161159afc61f9cc92d60e003a8a",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "ba77aa59eea7844f86889df028e4e8ba5262a17a19b08293a19cc4ca847bb824",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "31a40e773a80ebba9f5b7129bd68b2c406ad549e3a22a6e0f627e43023a25258"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-current-kk-top400",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 0,
+        "sourceCanvasCssWidth": 336,
+        "sourceCanvasWidth": 6,
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 0,
+        "sourceCanvasCssWidth": 336,
+        "sourceCanvasWidth": 6,
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-current-kk-top400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-current-kk-top400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-current-kk-top400.jpg",
+      "sha256": "d9acbbaf78a18c8ca419d27e5a754e679004b9ed0088478fc362e8840f39457b",
+      "source": {
+        "app.js": "245956df218ad10aa1969d451c73cf2ac1eb4161159afc61f9cc92d60e003a8a",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "ba77aa59eea7844f86889df028e4e8ba5262a17a19b08293a19cc4ca847bb824",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "31a40e773a80ebba9f5b7129bd68b2c406ad549e3a22a6e0f627e43023a25258"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-current-kk-source400",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 700,
+        "sourceCanvasCssWidth": 336,
+        "sourceCanvasWidth": 6,
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 700,
+        "sourceCanvasCssWidth": 336,
+        "sourceCanvasWidth": 6,
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-current-kk-source400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-current-kk-source400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-current-kk-source400.jpg",
+      "sha256": "aafda0db12d085b4e6dd6f363a9895817ba6d657a057d60cbd8c178d35e397ec",
+      "source": {
+        "app.js": "245956df218ad10aa1969d451c73cf2ac1eb4161159afc61f9cc92d60e003a8a",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "ba77aa59eea7844f86889df028e4e8ba5262a17a19b08293a19cc4ca847bb824",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "31a40e773a80ebba9f5b7129bd68b2c406ad549e3a22a6e0f627e43023a25258"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-current-kk-result400",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 1400,
+        "sourceCanvasCssWidth": 336,
+        "sourceCanvasWidth": 6,
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 1400,
+        "sourceCanvasCssWidth": 336,
+        "sourceCanvasWidth": 6,
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-current-kk-result400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-current-kk-result400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-current-kk-result400.jpg",
+      "sha256": "dffb366e7a6230ccae4868210417a54802a48f63e695723e712f34df075bc1d5",
+      "source": {
+        "app.js": "245956df218ad10aa1969d451c73cf2ac1eb4161159afc61f9cc92d60e003a8a",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "ba77aa59eea7844f86889df028e4e8ba5262a17a19b08293a19cc4ca847bb824",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "31a40e773a80ebba9f5b7129bd68b2c406ad549e3a22a6e0f627e43023a25258"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-current-kk-unsaved-save400",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 2417,
+        "sourceCanvasCssWidth": 336,
+        "sourceCanvasWidth": 6,
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 2417,
+        "sourceCanvasCssWidth": 336,
+        "sourceCanvasWidth": 6,
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-current-kk-unsaved-save400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-current-kk-unsaved-save400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-current-kk-unsaved-save400.jpg",
+      "sha256": "8d6b3214768286d75b9e458e87bd59ed7e1d5979301b2d16644bc4cba4086cc2",
+      "source": {
+        "app.js": "245956df218ad10aa1969d451c73cf2ac1eb4161159afc61f9cc92d60e003a8a",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "ba77aa59eea7844f86889df028e4e8ba5262a17a19b08293a19cc4ca847bb824",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "31a40e773a80ebba9f5b7129bd68b2c406ad549e3a22a6e0f627e43023a25258"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-current-mobile-stale-input400",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 2417,
+        "sourceCanvasCssWidth": 336,
+        "sourceCanvasWidth": 6,
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 2417,
+        "sourceCanvasCssWidth": 336,
+        "sourceCanvasWidth": 6,
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-current-mobile-stale-input400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-current-mobile-stale-input400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-current-mobile-stale-input400.jpg",
+      "sha256": "89d68805754ec4869b50db099b74ff9ddb1f07feb2b8f5b72613d13f4f912ba0",
+      "source": {
+        "app.js": "245956df218ad10aa1969d451c73cf2ac1eb4161159afc61f9cc92d60e003a8a",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "ba77aa59eea7844f86889df028e4e8ba5262a17a19b08293a19cc4ca847bb824",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "31a40e773a80ebba9f5b7129bd68b2c406ad549e3a22a6e0f627e43023a25258"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-current-mobile-stale-top400",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 0,
+        "sourceCanvasCssWidth": 336,
+        "sourceCanvasWidth": 6,
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 0,
+        "sourceCanvasCssWidth": 336,
+        "sourceCanvasWidth": 6,
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-current-mobile-stale-top400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-current-mobile-stale-top400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-current-mobile-stale-top400.jpg",
+      "sha256": "e44f4ebbd0a85c4bb7ebba5465a49aaeab88ab1b35ed6fa54a0431a955bba9c3",
+      "source": {
+        "app.js": "245956df218ad10aa1969d451c73cf2ac1eb4161159afc61f9cc92d60e003a8a",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "ba77aa59eea7844f86889df028e4e8ba5262a17a19b08293a19cc4ca847bb824",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "31a40e773a80ebba9f5b7129bd68b2c406ad549e3a22a6e0f627e43023a25258"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-current-mobile-refreshed-input400",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 2417,
+        "sourceCanvasCssWidth": 336,
+        "sourceCanvasWidth": 6,
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 2417,
+        "sourceCanvasCssWidth": 336,
+        "sourceCanvasWidth": 6,
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-current-mobile-refreshed-input400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-current-mobile-refreshed-input400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-current-mobile-refreshed-input400.jpg",
+      "sha256": "6194eaa7231cf1b21fefbf55bab7a8322e435cd4f9de020e0090b5f8f05d06b7",
+      "source": {
+        "app.js": "245956df218ad10aa1969d451c73cf2ac1eb4161159afc61f9cc92d60e003a8a",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "ba77aa59eea7844f86889df028e4e8ba5262a17a19b08293a19cc4ca847bb824",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "31a40e773a80ebba9f5b7129bd68b2c406ad549e3a22a6e0f627e43023a25258"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-current-mobile-crop-fields400",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 1438.5,
+        "sourceCanvasCssWidth": 336,
+        "sourceCanvasWidth": 6,
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 1438.5,
+        "sourceCanvasCssWidth": 336,
+        "sourceCanvasWidth": 6,
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-current-mobile-crop-fields400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-current-mobile-crop-fields400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-current-mobile-crop-fields400.jpg",
+      "sha256": "f1e2f593c1ba22af3a6c5dad66a56fa8653dfdb90dc8a8067af844421fd91768",
+      "source": {
+        "app.js": "245956df218ad10aa1969d451c73cf2ac1eb4161159afc61f9cc92d60e003a8a",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "ba77aa59eea7844f86889df028e4e8ba5262a17a19b08293a19cc4ca847bb824",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "31a40e773a80ebba9f5b7129bd68b2c406ad549e3a22a6e0f627e43023a25258"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-current-mobile-encoding400",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 2111,
+        "sourceCanvasCssWidth": 336,
+        "sourceCanvasWidth": 6,
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 2111,
+        "sourceCanvasCssWidth": 336,
+        "sourceCanvasWidth": 6,
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-current-mobile-encoding400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-current-mobile-encoding400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-current-mobile-encoding400.jpg",
+      "sha256": "d213440423f054986635501c9ebe27b2f8dee2d9a2b75142077418997446d0ec",
+      "source": {
+        "app.js": "245956df218ad10aa1969d451c73cf2ac1eb4161159afc61f9cc92d60e003a8a",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "ba77aa59eea7844f86889df028e4e8ba5262a17a19b08293a19cc4ca847bb824",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "31a40e773a80ebba9f5b7129bd68b2c406ad549e3a22a6e0f627e43023a25258"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-current-mobile-ready-downloads400",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 2250,
+        "sourceCanvasCssWidth": 336,
+        "sourceCanvasWidth": 6,
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 2250,
+        "sourceCanvasCssWidth": 336,
+        "sourceCanvasWidth": 6,
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-current-mobile-ready-downloads400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-current-mobile-ready-downloads400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-current-mobile-ready-downloads400.jpg",
+      "sha256": "cd6bc2a168047afcdfa92a0a621fa7fc58fbabf0155fdd1e87c5474a0951d730",
+      "source": {
+        "app.js": "245956df218ad10aa1969d451c73cf2ac1eb4161159afc61f9cc92d60e003a8a",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "ba77aa59eea7844f86889df028e4e8ba5262a17a19b08293a19cc4ca847bb824",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "31a40e773a80ebba9f5b7129bd68b2c406ad549e3a22a6e0f627e43023a25258"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-current-mobile-archived-history400",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 3259.5,
+        "sourceCanvasCssWidth": 336,
+        "sourceCanvasWidth": 6,
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 3259.5,
+        "sourceCanvasCssWidth": 336,
+        "sourceCanvasWidth": 6,
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-current-mobile-archived-history400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-current-mobile-archived-history400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-current-mobile-archived-history400.jpg",
+      "sha256": "e5e48e24ab9164e818f0f08a131d31114e6a8b4594c54a28154ac6b4012cd8f7",
+      "source": {
+        "app.js": "245956df218ad10aa1969d451c73cf2ac1eb4161159afc61f9cc92d60e003a8a",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "ba77aa59eea7844f86889df028e4e8ba5262a17a19b08293a19cc4ca847bb824",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "31a40e773a80ebba9f5b7129bd68b2c406ad549e3a22a6e0f627e43023a25258"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-fixed-empty400",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 0,
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 0,
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-fixed-empty400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-fixed-empty400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-fixed-empty400.jpg",
+      "sha256": "b291abd0e82cc183f51a85bebf423ee0fedca4b9b925c51f98ca6512db864e65",
+      "source": {
+        "app.js": "fb7a343065b53c8ef819cba32b85dcf4610eb137999a0308d068ebdfb021ad2d",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "e891b32219d8e1bf82faad6dfcff661ba14a4f53b4cfda0eeb889fe699971759",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "2fa00ba36c561a1c689f4e3878f66eb7762b05b980930ecdf8a75648b3a593fc"
+      },
+      "scope": "current source viewport capture",
+      "opened": true,
+      "note": "Viewport reset affected the other active QA tab; recorded actual400 remains valid; filename corrected immediately."
+    },
+    {
+      "name": "qiyiq-fixed-empty400-second",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 0,
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 0,
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-fixed-empty400-second.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-fixed-empty400-second.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-fixed-empty400-second.jpg",
+      "sha256": "8146ac6c837f6f5c9c3ca39a23608f16bc9f205f282ae404843a5568ca84aab2",
+      "source": {
+        "app.js": "fb7a343065b53c8ef819cba32b85dcf4610eb137999a0308d068ebdfb021ad2d",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "e891b32219d8e1bf82faad6dfcff661ba14a4f53b4cfda0eeb889fe699971759",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "2fa00ba36c561a1c689f4e3878f66eb7762b05b980930ecdf8a75648b3a593fc"
+      },
+      "scope": "duplicate400 viewport capture; excluded from finish-review packet",
+      "opened": true,
+      "note": "Inherited viewport remained400; corrected using selected-browser1 viewport capability, not legacy qabylViewport."
+    },
+    {
+      "name": "qiyiq-fixed-empty400-legacycapture",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 0,
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 0,
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-fixed-empty400-legacycapture.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-fixed-empty400-legacycapture.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-fixed-empty400-legacycapture.jpg",
+      "sha256": "8146ac6c837f6f5c9c3ca39a23608f16bc9f205f282ae404843a5568ca84aab2",
+      "source": {
+        "app.js": "fb7a343065b53c8ef819cba32b85dcf4610eb137999a0308d068ebdfb021ad2d",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "e891b32219d8e1bf82faad6dfcff661ba14a4f53b4cfda0eeb889fe699971759",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "2fa00ba36c561a1c689f4e3878f66eb7762b05b980930ecdf8a75648b3a593fc"
+      },
+      "scope": "duplicate400 from legacy capture closure bound to original tab; excluded from finish-review packet",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-fixed-reopen-pending1126",
+      "tabId": "1010119517",
+      "pre": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 1126
+      },
+      "post": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 1126
+      },
+      "raw": "outputs/products/qiyiq-fixed-reopen-pending1126.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-fixed-reopen-pending1126.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-fixed-reopen-pending1126.jpg",
+      "sha256": "f19611cb2f99ce3561b08296e9feada70300d26e797db61546b0e1383f7723b6",
+      "source": {
+        "app.js": "fb7a343065b53c8ef819cba32b85dcf4610eb137999a0308d068ebdfb021ad2d",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "e891b32219d8e1bf82faad6dfcff661ba14a4f53b4cfda0eeb889fe699971759",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "2fa00ba36c561a1c689f4e3878f66eb7762b05b980930ecdf8a75648b3a593fc"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-fixed-wrong-source1126",
+      "tabId": "1010119517",
+      "pre": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 1126
+      },
+      "post": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 1126
+      },
+      "raw": "outputs/products/qiyiq-fixed-wrong-source1126.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-fixed-wrong-source1126.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-fixed-wrong-source1126.jpg",
+      "sha256": "702e1a279980682c93047fc1f4bb91170faf420543803281bb4a8e261a108cb7",
+      "source": {
+        "app.js": "fb7a343065b53c8ef819cba32b85dcf4610eb137999a0308d068ebdfb021ad2d",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "e891b32219d8e1bf82faad6dfcff661ba14a4f53b4cfda0eeb889fe699971759",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "2fa00ba36c561a1c689f4e3878f66eb7762b05b980930ecdf8a75648b3a593fc"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-fixed-crop-top1126",
+      "tabId": "1010119517",
+      "pre": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 1126
+      },
+      "post": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 1126
+      },
+      "raw": "outputs/products/qiyiq-fixed-crop-top1126.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-fixed-crop-top1126.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-fixed-crop-top1126.jpg",
+      "sha256": "1713a2401c903ebb500e373c7cf08bf7579696241d7b99026f5eabbb39f2012b",
+      "source": {
+        "app.js": "fb7a343065b53c8ef819cba32b85dcf4610eb137999a0308d068ebdfb021ad2d",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "e891b32219d8e1bf82faad6dfcff661ba14a4f53b4cfda0eeb889fe699971759",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "2fa00ba36c561a1c689f4e3878f66eb7762b05b980930ecdf8a75648b3a593fc"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-fixed-crop-downloads1126",
+      "tabId": "1010119517",
+      "pre": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 839,
+        "url": "http://127.0.0.1:8860/",
+        "width": 1126
+      },
+      "post": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 839,
+        "url": "http://127.0.0.1:8860/",
+        "width": 1126
+      },
+      "raw": "outputs/products/qiyiq-fixed-crop-downloads1126.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-fixed-crop-downloads1126.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-fixed-crop-downloads1126.jpg",
+      "sha256": "de1a296c252f0146a1c373fb074d0d1f8647c9b8bf5f0b0573fead2397b475cc",
+      "source": {
+        "app.js": "fb7a343065b53c8ef819cba32b85dcf4610eb137999a0308d068ebdfb021ad2d",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "e891b32219d8e1bf82faad6dfcff661ba14a4f53b4cfda0eeb889fe699971759",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "2fa00ba36c561a1c689f4e3878f66eb7762b05b980930ecdf8a75648b3a593fc"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-fixed-beta-empty1126",
+      "tabId": "1010119517",
+      "pre": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 1126
+      },
+      "post": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 1126
+      },
+      "raw": "outputs/products/qiyiq-fixed-beta-empty1126.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-fixed-beta-empty1126.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-fixed-beta-empty1126.jpg",
+      "sha256": "bdc012f0189cb70286556cf5c2268c656cff81d5ed5a6b9fcaa10cf3fb570941",
+      "source": {
+        "app.js": "fb7a343065b53c8ef819cba32b85dcf4610eb137999a0308d068ebdfb021ad2d",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "e891b32219d8e1bf82faad6dfcff661ba14a4f53b4cfda0eeb889fe699971759",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "2fa00ba36c561a1c689f4e3878f66eb7762b05b980930ecdf8a75648b3a593fc"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-fixed-admin-backup1126",
+      "tabId": "1010119517",
+      "pre": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 1920.5,
+        "url": "http://127.0.0.1:8860/",
+        "width": 1126
+      },
+      "post": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 1920.5,
+        "url": "http://127.0.0.1:8860/",
+        "width": 1126
+      },
+      "raw": "outputs/products/qiyiq-fixed-admin-backup1126.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-fixed-admin-backup1126.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-fixed-admin-backup1126.jpg",
+      "sha256": "435c92fd93f79287e329ccde2083b715e7cd86393bd4fb759327a96bf7e5afb1",
+      "source": {
+        "app.js": "fb7a343065b53c8ef819cba32b85dcf4610eb137999a0308d068ebdfb021ad2d",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "e891b32219d8e1bf82faad6dfcff661ba14a4f53b4cfda0eeb889fe699971759",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "2fa00ba36c561a1c689f4e3878f66eb7762b05b980930ecdf8a75648b3a593fc"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-fixed-kk-top400",
+      "tabId": "1010119511",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-fixed-kk-top400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-fixed-kk-top400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-fixed-kk-top400.jpg",
+      "sha256": "09a5de35c5cfd1144f855e865c4a87b60d7127c334af5318b200ae24c99e09ca",
+      "source": {
+        "app.js": "fb7a343065b53c8ef819cba32b85dcf4610eb137999a0308d068ebdfb021ad2d",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "e891b32219d8e1bf82faad6dfcff661ba14a4f53b4cfda0eeb889fe699971759",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "2fa00ba36c561a1c689f4e3878f66eb7762b05b980930ecdf8a75648b3a593fc"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-fixed-kk-source400",
+      "tabId": "1010119511",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 700,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-fixed-kk-source400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-fixed-kk-source400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-fixed-kk-source400.jpg",
+      "sha256": "c7839181970a25c142b8659f394a3969fe1ce93f67c0cec3715dcdd7f7f163e1",
+      "source": {
+        "app.js": "fb7a343065b53c8ef819cba32b85dcf4610eb137999a0308d068ebdfb021ad2d",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "e891b32219d8e1bf82faad6dfcff661ba14a4f53b4cfda0eeb889fe699971759",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "2fa00ba36c561a1c689f4e3878f66eb7762b05b980930ecdf8a75648b3a593fc"
+      },
+      "scope": "CSS stable but scroll was pending at pre-measurement; superseded by settled capture",
+      "opened": true,
+      "note": "Source/result section opened correctly; recaptured after explicit AX observation to make scrollY pre/post stable."
+    },
+    {
+      "name": "qiyiq-fixed-kk-result400",
+      "tabId": "1010119511",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 700,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 1400,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-fixed-kk-result400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-fixed-kk-result400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-fixed-kk-result400.jpg",
+      "sha256": "73ad3a440cdca94f54c7fbae24b5bdb6c1f0c84cfebe6affc51f2b19b058eae7",
+      "source": {
+        "app.js": "fb7a343065b53c8ef819cba32b85dcf4610eb137999a0308d068ebdfb021ad2d",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "e891b32219d8e1bf82faad6dfcff661ba14a4f53b4cfda0eeb889fe699971759",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "2fa00ba36c561a1c689f4e3878f66eb7762b05b980930ecdf8a75648b3a593fc"
+      },
+      "scope": "CSS stable but scroll was pending at pre-measurement; superseded by settled capture",
+      "opened": true,
+      "note": "Source/result section opened correctly; recaptured after explicit AX observation to make scrollY pre/post stable."
+    },
+    {
+      "name": "qiyiq-fixed-kk-downloads400",
+      "tabId": "1010119511",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 1888.5,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 1888.5,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-fixed-kk-downloads400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-fixed-kk-downloads400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-fixed-kk-downloads400.jpg",
+      "sha256": "88ce28f67a9d5055caea0b05c52fe7cd3e774c7983e0ad38ab5e6d96049aec45",
+      "source": {
+        "app.js": "fb7a343065b53c8ef819cba32b85dcf4610eb137999a0308d068ebdfb021ad2d",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "e891b32219d8e1bf82faad6dfcff661ba14a4f53b4cfda0eeb889fe699971759",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "2fa00ba36c561a1c689f4e3878f66eb7762b05b980930ecdf8a75648b3a593fc"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-fixed-kk-invalid-crop400",
+      "tabId": "1010119511",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 2381.5,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 2381.5,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-fixed-kk-invalid-crop400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-fixed-kk-invalid-crop400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-fixed-kk-invalid-crop400.jpg",
+      "sha256": "490fc4da315a1f7644c2b5bbd4be3a704c5b2c1bdd85b09ad2bbafaafdb38724",
+      "source": {
+        "app.js": "fb7a343065b53c8ef819cba32b85dcf4610eb137999a0308d068ebdfb021ad2d",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "e891b32219d8e1bf82faad6dfcff661ba14a4f53b4cfda0eeb889fe699971759",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "2fa00ba36c561a1c689f4e3878f66eb7762b05b980930ecdf8a75648b3a593fc"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-fixed-kk-crop-controls400",
+      "tabId": "1010119511",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 1768,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 1768,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-fixed-kk-crop-controls400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-fixed-kk-crop-controls400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-fixed-kk-crop-controls400.jpg",
+      "sha256": "97487b20dd3a09b8968fe9ff497d77529db5cb8d86d29e32b3df902120d0aba4",
+      "source": {
+        "app.js": "fb7a343065b53c8ef819cba32b85dcf4610eb137999a0308d068ebdfb021ad2d",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "e891b32219d8e1bf82faad6dfcff661ba14a4f53b4cfda0eeb889fe699971759",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "2fa00ba36c561a1c689f4e3878f66eb7762b05b980930ecdf8a75648b3a593fc"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-fixed-kk-archive-history400",
+      "tabId": "1010119511",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 3177.5,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 3177.5,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-fixed-kk-archive-history400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-fixed-kk-archive-history400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-fixed-kk-archive-history400.jpg",
+      "sha256": "27ac7fbad3ed26c3d2638f5f38bcf6013bc4dc5d5ec9aa4c34f81dcc794a97b6",
+      "source": {
+        "app.js": "fb7a343065b53c8ef819cba32b85dcf4610eb137999a0308d068ebdfb021ad2d",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "e891b32219d8e1bf82faad6dfcff661ba14a4f53b4cfda0eeb889fe699971759",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "2fa00ba36c561a1c689f4e3878f66eb7762b05b980930ecdf8a75648b3a593fc"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-fixed-kk-source-settled400",
+      "tabId": "1010119511",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 700,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 700,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-fixed-kk-source-settled400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-fixed-kk-source-settled400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-fixed-kk-source-settled400.jpg",
+      "sha256": "51c7b8535695b48f4ba431545e80af9fd46ea0835b7ee147dfd126d4179aae2f",
+      "source": {
+        "app.js": "fb7a343065b53c8ef819cba32b85dcf4610eb137999a0308d068ebdfb021ad2d",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "e891b32219d8e1bf82faad6dfcff661ba14a4f53b4cfda0eeb889fe699971759",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "2fa00ba36c561a1c689f4e3878f66eb7762b05b980930ecdf8a75648b3a593fc"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-fixed-kk-result-settled400",
+      "tabId": "1010119511",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 1400,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 1400,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-fixed-kk-result-settled400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-fixed-kk-result-settled400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-fixed-kk-result-settled400.jpg",
+      "sha256": "5cbde356a9c3a69ceb3cb03f8811dcc09c8644aef0b3b05f1c319f7b7946bd5c",
+      "source": {
+        "app.js": "fb7a343065b53c8ef819cba32b85dcf4610eb137999a0308d068ebdfb021ad2d",
+        "styles.css": "e24dea65ddbc4c283d630633c4e4f6a0c38bae7dac293d566c684c9854e4e556",
+        "index.html": "3fa39f111247437fb807b7b0dc4ef4a66414cfb9581a6231cdf6c30d8a454878",
+        "controller.js": "e891b32219d8e1bf82faad6dfcff661ba14a4f53b4cfda0eeb889fe699971759",
+        "geometry.js": "7388c7291d6f61c15c61073bcbb891ac1970b5b8847aa67ced4df16d5fa637b9",
+        "image-header.js": "2fa00ba36c561a1c689f4e3878f66eb7762b05b980930ecdf8a75648b3a593fc"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-verdict-accepted-file-navigation1126",
+      "tabId": "1010119517",
+      "pre": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 1126
+      },
+      "post": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 1126
+      },
+      "raw": "outputs/products/qiyiq-verdict-accepted-file-navigation1126.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-verdict-accepted-file-navigation1126.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-verdict-accepted-file-navigation1126.jpg",
+      "sha256": "2cf2b53ed261bada08f68a20df895b1826bc36775764dc2352b49c8ce8475783",
+      "source": {
+        "app.js": "d84484c27dc0eac6763315a417d8a63644f8ce3281498e9a99c0cd6281ca9e82",
+        "styles.css": "502ea64b65a74247c961553c518c5bdf5ac6051b3c1712d68b9763787498aca5",
+        "index.html": "cd6433eef869f953d7e10a9f027bf209be24cc4b089443fb9459e63a17bbb48e",
+        "controller.js": "b06ea52743b95fd8de4f3fdb4d5d52ca3f3b6b1a59cb637e6cb2dceecac79675",
+        "geometry.js": "0cbb1bce2e09267a3b5506d5633f86673ab5b0d1d78ff29c392f596b84c4e382",
+        "image-header.js": "ae1d43dea08a6357f704cc9481bab24bd284a118bb0a84242d759158d2691cdf"
+      },
+      "scope": "Not F1 evidence: file accepted after navigation/startup cleared pending selection. Excluded from verdict packet.",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-verdict-F1-empty1126",
+      "tabId": "1010119517",
+      "pre": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1316,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 1126
+      },
+      "post": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1316,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 1126
+      },
+      "raw": "outputs/products/qiyiq-verdict-F1-empty1126.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-verdict-F1-empty1126.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-verdict-F1-empty1126.jpg",
+      "sha256": "e5353194c2ce5b6e7abc301558962152b1b560ad4117ccddca7e71934f656ba6",
+      "source": {
+        "app.js": "d84484c27dc0eac6763315a417d8a63644f8ce3281498e9a99c0cd6281ca9e82",
+        "styles.css": "502ea64b65a74247c961553c518c5bdf5ac6051b3c1712d68b9763787498aca5",
+        "index.html": "cd6433eef869f953d7e10a9f027bf209be24cc4b089443fb9459e63a17bbb48e",
+        "controller.js": "b06ea52743b95fd8de4f3fdb4d5d52ca3f3b6b1a59cb637e6cb2dceecac79675",
+        "geometry.js": "0cbb1bce2e09267a3b5506d5633f86673ab5b0d1d78ff29c392f596b84c4e382",
+        "image-header.js": "ae1d43dea08a6357f704cc9481bab24bd284a118bb0a84242d759158d2691cdf"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-verdict-F1-retained1126",
+      "tabId": "1010119517",
+      "pre": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 1126
+      },
+      "post": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 1126
+      },
+      "raw": "outputs/products/qiyiq-verdict-F1-retained1126.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-verdict-F1-retained1126.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-verdict-F1-retained1126.jpg",
+      "sha256": "28852ded79b9252f45b94b1725891c60cc4afab02497572c496c93cf470bf6f6",
+      "source": {
+        "app.js": "d84484c27dc0eac6763315a417d8a63644f8ce3281498e9a99c0cd6281ca9e82",
+        "styles.css": "502ea64b65a74247c961553c518c5bdf5ac6051b3c1712d68b9763787498aca5",
+        "index.html": "cd6433eef869f953d7e10a9f027bf209be24cc4b089443fb9459e63a17bbb48e",
+        "controller.js": "b06ea52743b95fd8de4f3fdb4d5d52ca3f3b6b1a59cb637e6cb2dceecac79675",
+        "geometry.js": "0cbb1bce2e09267a3b5506d5633f86673ab5b0d1d78ff29c392f596b84c4e382",
+        "image-header.js": "ae1d43dea08a6357f704cc9481bab24bd284a118bb0a84242d759158d2691cdf"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-verdict-F3-beta-default1126",
+      "tabId": "1010119517",
+      "pre": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 1126
+      },
+      "post": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 1126
+      },
+      "raw": "outputs/products/qiyiq-verdict-F3-beta-default1126.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-verdict-F3-beta-default1126.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-verdict-F3-beta-default1126.jpg",
+      "sha256": "615b60de9d1c07a76d7f8dc60ff31708515a0bd6a84fe121586b1ee49816ce36",
+      "source": {
+        "app.js": "d84484c27dc0eac6763315a417d8a63644f8ce3281498e9a99c0cd6281ca9e82",
+        "styles.css": "502ea64b65a74247c961553c518c5bdf5ac6051b3c1712d68b9763787498aca5",
+        "index.html": "cd6433eef869f953d7e10a9f027bf209be24cc4b089443fb9459e63a17bbb48e",
+        "controller.js": "b06ea52743b95fd8de4f3fdb4d5d52ca3f3b6b1a59cb637e6cb2dceecac79675",
+        "geometry.js": "0cbb1bce2e09267a3b5506d5633f86673ab5b0d1d78ff29c392f596b84c4e382",
+        "image-header.js": "ae1d43dea08a6357f704cc9481bab24bd284a118bb0a84242d759158d2691cdf"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-verdict-F2-X-field400",
+      "tabId": "1010119511",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 1681.5,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 1681.5,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-verdict-F2-X-field400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-verdict-F2-X-field400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-verdict-F2-X-field400.jpg",
+      "sha256": "0d248828a2d87bf14300713076cd4a2aea6fe226ec49684e0449a20fa68c9b4c",
+      "source": {
+        "app.js": "d84484c27dc0eac6763315a417d8a63644f8ce3281498e9a99c0cd6281ca9e82",
+        "styles.css": "502ea64b65a74247c961553c518c5bdf5ac6051b3c1712d68b9763787498aca5",
+        "index.html": "cd6433eef869f953d7e10a9f027bf209be24cc4b089443fb9459e63a17bbb48e",
+        "controller.js": "b06ea52743b95fd8de4f3fdb4d5d52ca3f3b6b1a59cb637e6cb2dceecac79675",
+        "geometry.js": "0cbb1bce2e09267a3b5506d5633f86673ab5b0d1d78ff29c392f596b84c4e382",
+        "image-header.js": "ae1d43dea08a6357f704cc9481bab24bd284a118bb0a84242d759158d2691cdf"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-verdict-F2-KK-recovery400",
+      "tabId": "1010119511",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 2381.5,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 2381.5,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-verdict-F2-KK-recovery400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-verdict-F2-KK-recovery400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-verdict-F2-KK-recovery400.jpg",
+      "sha256": "f8d6d1bb4f9c6e416e6335a731aa288137374172f535fbc1ff3fe6e0ee4515fc",
+      "source": {
+        "app.js": "d84484c27dc0eac6763315a417d8a63644f8ce3281498e9a99c0cd6281ca9e82",
+        "styles.css": "502ea64b65a74247c961553c518c5bdf5ac6051b3c1712d68b9763787498aca5",
+        "index.html": "cd6433eef869f953d7e10a9f027bf209be24cc4b089443fb9459e63a17bbb48e",
+        "controller.js": "b06ea52743b95fd8de4f3fdb4d5d52ca3f3b6b1a59cb637e6cb2dceecac79675",
+        "geometry.js": "0cbb1bce2e09267a3b5506d5633f86673ab5b0d1d78ff29c392f596b84c4e382",
+        "image-header.js": "ae1d43dea08a6357f704cc9481bab24bd284a118bb0a84242d759158d2691cdf"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-verdict-F2-RU-recovery400",
+      "tabId": "1010119511",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 2416,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 2416,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-verdict-F2-RU-recovery400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-verdict-F2-RU-recovery400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-verdict-F2-RU-recovery400.jpg",
+      "sha256": "ee20c1d0be7ed72be158839531770ee09cf8cb2b16c5fc740eabe1bd0ea3e1fb",
+      "source": {
+        "app.js": "d84484c27dc0eac6763315a417d8a63644f8ce3281498e9a99c0cd6281ca9e82",
+        "styles.css": "502ea64b65a74247c961553c518c5bdf5ac6051b3c1712d68b9763787498aca5",
+        "index.html": "cd6433eef869f953d7e10a9f027bf209be24cc4b089443fb9459e63a17bbb48e",
+        "controller.js": "b06ea52743b95fd8de4f3fdb4d5d52ca3f3b6b1a59cb637e6cb2dceecac79675",
+        "geometry.js": "0cbb1bce2e09267a3b5506d5633f86673ab5b0d1d78ff29c392f596b84c4e382",
+        "image-header.js": "ae1d43dea08a6357f704cc9481bab24bd284a118bb0a84242d759158d2691cdf"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-verdict-F3-refresh-keeps400",
+      "tabId": "1010119511",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 1802.5,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 1802.5,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-verdict-F3-refresh-keeps400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-verdict-F3-refresh-keeps400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-verdict-F3-refresh-keeps400.jpg",
+      "sha256": "874a46ee5a5de02619d765c962eb12c9daba549bfb312c0e9afb6be897d6013e",
+      "source": {
+        "app.js": "d84484c27dc0eac6763315a417d8a63644f8ce3281498e9a99c0cd6281ca9e82",
+        "styles.css": "502ea64b65a74247c961553c518c5bdf5ac6051b3c1712d68b9763787498aca5",
+        "index.html": "cd6433eef869f953d7e10a9f027bf209be24cc4b089443fb9459e63a17bbb48e",
+        "controller.js": "b06ea52743b95fd8de4f3fdb4d5d52ca3f3b6b1a59cb637e6cb2dceecac79675",
+        "geometry.js": "0cbb1bce2e09267a3b5506d5633f86673ab5b0d1d78ff29c392f596b84c4e382",
+        "image-header.js": "ae1d43dea08a6357f704cc9481bab24bd284a118bb0a84242d759158d2691cdf"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-finalfix-F1-empty1126",
+      "tabId": "1010119517",
+      "pre": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 1126
+      },
+      "post": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 1126
+      },
+      "raw": "outputs/products/qiyiq-finalfix-F1-empty1126.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-finalfix-F1-empty1126.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-finalfix-F1-empty1126.jpg",
+      "sha256": "8aff230bc149b7db6b87d30af32cf5d26c551a803bd7de09dcb553fa1c3489a8",
+      "source": {
+        "app.js": "d84484c27dc0eac6763315a417d8a63644f8ce3281498e9a99c0cd6281ca9e82",
+        "styles.css": "b7cf289d511324b74771af108c9ece87c4c1d6ddd2457213be58429e9eb459ab",
+        "index.html": "cd6433eef869f953d7e10a9f027bf209be24cc4b089443fb9459e63a17bbb48e",
+        "controller.js": "b06ea52743b95fd8de4f3fdb4d5d52ca3f3b6b1a59cb637e6cb2dceecac79675",
+        "geometry.js": "0cbb1bce2e09267a3b5506d5633f86673ab5b0d1d78ff29c392f596b84c4e382",
+        "image-header.js": "ae1d43dea08a6357f704cc9481bab24bd284a118bb0a84242d759158d2691cdf"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-finalfix-F1-retained1126",
+      "tabId": "1010119517",
+      "pre": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 1126
+      },
+      "post": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 1126
+      },
+      "raw": "outputs/products/qiyiq-finalfix-F1-retained1126.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-finalfix-F1-retained1126.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-finalfix-F1-retained1126.jpg",
+      "sha256": "28852ded79b9252f45b94b1725891c60cc4afab02497572c496c93cf470bf6f6",
+      "source": {
+        "app.js": "d84484c27dc0eac6763315a417d8a63644f8ce3281498e9a99c0cd6281ca9e82",
+        "styles.css": "b7cf289d511324b74771af108c9ece87c4c1d6ddd2457213be58429e9eb459ab",
+        "index.html": "cd6433eef869f953d7e10a9f027bf209be24cc4b089443fb9459e63a17bbb48e",
+        "controller.js": "b06ea52743b95fd8de4f3fdb4d5d52ca3f3b6b1a59cb637e6cb2dceecac79675",
+        "geometry.js": "0cbb1bce2e09267a3b5506d5633f86673ab5b0d1d78ff29c392f596b84c4e382",
+        "image-header.js": "ae1d43dea08a6357f704cc9481bab24bd284a118bb0a84242d759158d2691cdf"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-finalfix-F2-X-field400",
+      "tabId": "1010119511",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 1681.5,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 1681.5,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-finalfix-F2-X-field400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-finalfix-F2-X-field400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-finalfix-F2-X-field400.jpg",
+      "sha256": "0d248828a2d87bf14300713076cd4a2aea6fe226ec49684e0449a20fa68c9b4c",
+      "source": {
+        "app.js": "d84484c27dc0eac6763315a417d8a63644f8ce3281498e9a99c0cd6281ca9e82",
+        "styles.css": "b7cf289d511324b74771af108c9ece87c4c1d6ddd2457213be58429e9eb459ab",
+        "index.html": "cd6433eef869f953d7e10a9f027bf209be24cc4b089443fb9459e63a17bbb48e",
+        "controller.js": "b06ea52743b95fd8de4f3fdb4d5d52ca3f3b6b1a59cb637e6cb2dceecac79675",
+        "geometry.js": "0cbb1bce2e09267a3b5506d5633f86673ab5b0d1d78ff29c392f596b84c4e382",
+        "image-header.js": "ae1d43dea08a6357f704cc9481bab24bd284a118bb0a84242d759158d2691cdf"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-finalfix-F2-KK-recovery400",
+      "tabId": "1010119511",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 2381.5,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "kk",
+        "scrollWidth": 400,
+        "scrollY": 2381.5,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-finalfix-F2-KK-recovery400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-finalfix-F2-KK-recovery400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-finalfix-F2-KK-recovery400.jpg",
+      "sha256": "f8d6d1bb4f9c6e416e6335a731aa288137374172f535fbc1ff3fe6e0ee4515fc",
+      "source": {
+        "app.js": "d84484c27dc0eac6763315a417d8a63644f8ce3281498e9a99c0cd6281ca9e82",
+        "styles.css": "b7cf289d511324b74771af108c9ece87c4c1d6ddd2457213be58429e9eb459ab",
+        "index.html": "cd6433eef869f953d7e10a9f027bf209be24cc4b089443fb9459e63a17bbb48e",
+        "controller.js": "b06ea52743b95fd8de4f3fdb4d5d52ca3f3b6b1a59cb637e6cb2dceecac79675",
+        "geometry.js": "0cbb1bce2e09267a3b5506d5633f86673ab5b0d1d78ff29c392f596b84c4e382",
+        "image-header.js": "ae1d43dea08a6357f704cc9481bab24bd284a118bb0a84242d759158d2691cdf"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-finalfix-F2-RU-recovery400",
+      "tabId": "1010119511",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 2416,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 2416,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-finalfix-F2-RU-recovery400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-finalfix-F2-RU-recovery400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-finalfix-F2-RU-recovery400.jpg",
+      "sha256": "8105a5f9bbef245113096220b12d74aa801ad9a99bd23c25b93536f3905cbbbe",
+      "source": {
+        "app.js": "d84484c27dc0eac6763315a417d8a63644f8ce3281498e9a99c0cd6281ca9e82",
+        "styles.css": "b7cf289d511324b74771af108c9ece87c4c1d6ddd2457213be58429e9eb459ab",
+        "index.html": "cd6433eef869f953d7e10a9f027bf209be24cc4b089443fb9459e63a17bbb48e",
+        "controller.js": "b06ea52743b95fd8de4f3fdb4d5d52ca3f3b6b1a59cb637e6cb2dceecac79675",
+        "geometry.js": "0cbb1bce2e09267a3b5506d5633f86673ab5b0d1d78ff29c392f596b84c4e382",
+        "image-header.js": "ae1d43dea08a6357f704cc9481bab24bd284a118bb0a84242d759158d2691cdf"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-finalfix-F3-refresh-keeps400",
+      "tabId": "1010119511",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 1802.5,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 1802.5,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-finalfix-F3-refresh-keeps400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-finalfix-F3-refresh-keeps400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-finalfix-F3-refresh-keeps400.jpg",
+      "sha256": "874a46ee5a5de02619d765c962eb12c9daba549bfb312c0e9afb6be897d6013e",
+      "source": {
+        "app.js": "d84484c27dc0eac6763315a417d8a63644f8ce3281498e9a99c0cd6281ca9e82",
+        "styles.css": "b7cf289d511324b74771af108c9ece87c4c1d6ddd2457213be58429e9eb459ab",
+        "index.html": "cd6433eef869f953d7e10a9f027bf209be24cc4b089443fb9459e63a17bbb48e",
+        "controller.js": "b06ea52743b95fd8de4f3fdb4d5d52ca3f3b6b1a59cb637e6cb2dceecac79675",
+        "geometry.js": "0cbb1bce2e09267a3b5506d5633f86673ab5b0d1d78ff29c392f596b84c4e382",
+        "image-header.js": "ae1d43dea08a6357f704cc9481bab24bd284a118bb0a84242d759158d2691cdf"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-finalfix-F3-beta-default1126",
+      "tabId": "1010119517",
+      "pre": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 1126
+      },
+      "post": {
+        "clientWidth": 1126,
+        "dpr": 1,
+        "height": 1087,
+        "lang": "ru",
+        "scrollWidth": 1126,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 1126
+      },
+      "raw": "outputs/products/qiyiq-finalfix-F3-beta-default1126.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-finalfix-F3-beta-default1126.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-finalfix-F3-beta-default1126.jpg",
+      "sha256": "935a8be1e4c9ec9c101024bd5b182de00db8d868786ab7d43ebe22c4691a6588",
+      "source": {
+        "app.js": "d84484c27dc0eac6763315a417d8a63644f8ce3281498e9a99c0cd6281ca9e82",
+        "styles.css": "b7cf289d511324b74771af108c9ece87c4c1d6ddd2457213be58429e9eb459ab",
+        "index.html": "cd6433eef869f953d7e10a9f027bf209be24cc4b089443fb9459e63a17bbb48e",
+        "controller.js": "b06ea52743b95fd8de4f3fdb4d5d52ca3f3b6b1a59cb637e6cb2dceecac79675",
+        "geometry.js": "0cbb1bce2e09267a3b5506d5633f86673ab5b0d1d78ff29c392f596b84c4e382",
+        "image-header.js": "ae1d43dea08a6357f704cc9481bab24bd284a118bb0a84242d759158d2691cdf"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-finalfix-F3-beta-top400",
+      "tabId": "1010119511",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 0,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-finalfix-F3-beta-top400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-finalfix-F3-beta-top400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-finalfix-F3-beta-top400.jpg",
+      "sha256": "05e3b1632a5dbd1db98fb7a60929945ab71a54e43632d00374741c067c2cead1",
+      "source": {
+        "app.js": "d84484c27dc0eac6763315a417d8a63644f8ce3281498e9a99c0cd6281ca9e82",
+        "styles.css": "b7cf289d511324b74771af108c9ece87c4c1d6ddd2457213be58429e9eb459ab",
+        "index.html": "cd6433eef869f953d7e10a9f027bf209be24cc4b089443fb9459e63a17bbb48e",
+        "controller.js": "b06ea52743b95fd8de4f3fdb4d5d52ca3f3b6b1a59cb637e6cb2dceecac79675",
+        "geometry.js": "0cbb1bce2e09267a3b5506d5633f86673ab5b0d1d78ff29c392f596b84c4e382",
+        "image-header.js": "ae1d43dea08a6357f704cc9481bab24bd284a118bb0a84242d759158d2691cdf"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    },
+    {
+      "name": "qiyiq-finalfix-F3-beta-default400",
+      "tabId": "1010119511",
+      "pre": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 1437.5,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "post": {
+        "clientWidth": 400,
+        "dpr": 1,
+        "height": 700,
+        "lang": "ru",
+        "scrollWidth": 400,
+        "scrollY": 1437.5,
+        "url": "http://127.0.0.1:8860/",
+        "width": 400
+      },
+      "raw": "outputs/products/qiyiq-finalfix-F3-beta-default400.jpg",
+      "docs": "work/products/qiyiq-frame/docs/qiyiq-finalfix-F3-beta-default400.jpg",
+      "review": "work/products/qiyiq-frame/.impeccable/review/qiyiq-finalfix-F3-beta-default400.jpg",
+      "sha256": "3a36044d47451b849fc6f0fb574c42b95d9b6789f4cf7aa669d4b600092e557f",
+      "source": {
+        "app.js": "d84484c27dc0eac6763315a417d8a63644f8ce3281498e9a99c0cd6281ca9e82",
+        "styles.css": "b7cf289d511324b74771af108c9ece87c4c1d6ddd2457213be58429e9eb459ab",
+        "index.html": "cd6433eef869f953d7e10a9f027bf209be24cc4b089443fb9459e63a17bbb48e",
+        "controller.js": "b06ea52743b95fd8de4f3fdb4d5d52ca3f3b6b1a59cb637e6cb2dceecac79675",
+        "geometry.js": "0cbb1bce2e09267a3b5506d5633f86673ab5b0d1d78ff29c392f596b84c4e382",
+        "image-header.js": "ae1d43dea08a6357f704cc9481bab24bd284a118bb0a84242d759158d2691cdf"
+      },
+      "scope": "current source viewport capture",
+      "opened": true
+    }
+  ],
+  "fullReviewPacket": "qiyiq-finish-review-packet.json",
+  "fixPacket": "qiyiq-ui-fix-verdict-packet.json",
+  "actualRuntime": "main127.0.0.1:8860;separatepixel8893/async8892fixtures",
+  "acceptance": [
+    "Own6×4RGBA quadrants: actual PNG/JPEG decode, transparent contain100×100 with literal16/17margins, white matte, exact yellow crop and blue-source reopen. Real drawImage crop-edge bleed reproduced6/7, scratch integer crop fixed7/7. Separate actualdownload100×100/593bytes has all10000pixels opaque yellow; contain2872bytes/hash/manifest exact.",
+    "Alpha ready source/title/100×100 geometry atrevision0; beta unrelated explicit create1 made alpha save stale. Wholeworkspace/audit1 exact refusal; native refresh retained source/title/dimensions/matte. NativeTab/Return created alpha contain2. Ownedrestart15669→15745at2 preserved whole/audit/all5own tables/67prior privateDBs; live browserrefresh retained same-account input.",
+    "Alpha crop explicit nativeEnter3. Actual400CSS/KK unsaved SYN_ҚИМА_Ә_І with101×100 crop; beta unrelatedHTTPcreate4 made save stale; whole/audit4 exact andrefresh source/title/allnumericfields exact. ExplicitnativeTab/Return created5, explicit nativeEnter archive oldcontain6. Frozen original title/source/geometry/owner/time retained; working hides old recipe, showArchived reveals immutable snapshot. Final5recipes/6keys/1archive,6/audit6. No replay.",
+    "Exact saved recipe requires same full source fingerprint. Different119byte file with identical visible quadrants rejected; correct84byte original restored frozen100×100 crop. No image upload endpoint; image bytes stay in browser live workflow, metadata is caller-declared and not proof of pixels or rights.",
+    "Fresh source review found generatedPNG input-budget and held-demo/refresh-decode races. ObservedRED5fail→55pass, then real Chrome ownJPEG3296655bytes→PNG11032603bytes1800×1800/exactdownloadSHA/Pillowdecode; samePNG refused as input. HeldSYN fetch cannot replace newer local file/links; real helddecode plus sameaccountrefresh reconciles defaults or saved recipe title/fields/pending. Those fault fixtures use unmodified app with synthetic browser API responses, noDB/authwrites.",
+    "15authenticated currentmain refusals each preserved whole6/audit6: creator/admin boundaries, stale/keyreuse, strict metadata/types/bounds, absentupload/operatoradmin/nonemptyrestore. CurrentJSONbackup exact5recipes/6keys and excludesusers/auth/audit/images; actualfreshprivatefileemptyrestore200/exactrecipes/original6keys+onefreshrestorekey/audit1, corruptduplicatecopy400emptyunchanged; ephemeralserverclosed.",
+    "Full fresh Impeccable review14actual1126/400states foundF1false retained-result/F2localized field recovery/F3identity geometryclear. Onebatch/testRED5fail→fullTAP60pass. Nine newfinalfixcaptures allopened/raw-docs-review-sourcehashesexact/prepostequal/overflow0; same reviewer scoredF1/F2/F3resolved/ship in conjunction with original full review. Detectoronce[]only. Noowner visualapproval invented; direction inferred after two actual unanswered waits.",
+    "Explicit logout/beta identity transition cleared source/title/downloads and resets visible defaults tocontain1000×1000white/hiddencrop at1126/400. Sameaccountrefresh preserves crop101×100/title/source/allfields. RU/KKXerror gives0–5 bound, marked field/ariaassociation/live message; no assistive-tech execution claim.",
+    "Release descriptor mapping exposed string reference that matchedzero programme rows; numeric21 now maps exactlyQiyiqFrame. Freshidentifiedownedrestart15745→17506at6 loads currentdescriptor/error metadata; whole6/audit6/all5own/67prior exact and consistentprivatecopy. Ninecurrentstaticresponses exactSHA/no-cache. No oldserver restarted or SabaqLoop ownerorigin changed."
+  ],
+  "source_hash_scope": "Eachcapturecarriesitsactualsourcehashes;beforeUI/sourcefixesarehistorical,excludedmalformed/duplicateshavescopeannotation. Finalfix9 current source hashes match."
+}

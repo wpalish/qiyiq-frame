@@ -1,0 +1,23 @@
+{
+  "at": "2026-10-26T12:06:37.227Z",
+  "immediate": {
+    "downloadsHidden": true,
+    "href": null,
+    "prepareDisabled": true,
+    "qa": "{\"heldDemo\":true,\"heldDecode\":false,\"actor\":\"qa_alpha\"}"
+  },
+  "before": {
+    "href": "blob:http://localhost:8892/4a6880f7-71a2-4cf0-825e-dbe989ba323f",
+    "result": "111×100px · contain · white",
+    "sha": "SHA256 e4fc317d0f24fe06fe59ce63fb7ca869da189d56ab1649903f1ff308daf054aa",
+    "width": "111"
+  },
+  "after": {
+    "href": "blob:http://localhost:8892/4a6880f7-71a2-4cf0-825e-dbe989ba323f",
+    "result": "111×100px · contain · white",
+    "sha": "SHA256 e4fc317d0f24fe06fe59ce63fb7ca869da189d56ab1649903f1ff308daf054aa",
+    "width": "111"
+  },
+  "scope": "actual Chrome/unmodified app; synthetic browser API fixture; no auth or database writes",
+  "note": "first quick geometry input happened before decode completed, so was correctly blocked; selected again and waited for actual decoded state before this observation"
+}

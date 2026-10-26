@@ -1,1 +1,13 @@
-{"name":"qiyiq-frame","version":"0.1.0","type":"module","private":true,"engines":{"node":">=24.15 <25"},"scripts":{"test":"node --test test/*.test.js","start":"node start.js"}}
+{
+  "name": "qiyiq-frame",
+  "version": "0.1.0",
+  "type": "module",
+  "private": true,
+  "engines": {
+    "node": ">=24.15 <25"
+  },
+  "scripts": {
+    "test": "node --test --test-reporter=tap test/*.test.js",
+    "start": "node start.js"
+  }
+}

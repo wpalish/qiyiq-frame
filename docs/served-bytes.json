@@ -1,0 +1,69 @@
+{
+  "at": "2026-10-26T12:42:13.643Z",
+  "rows": [
+    {
+      "name": "index.html",
+      "status": 200,
+      "cache": "no-cache",
+      "bytes": 9789,
+      "sha256": "cd6433eef869f953d7e10a9f027bf209be24cc4b089443fb9459e63a17bbb48e"
+    },
+    {
+      "name": "app.js",
+      "status": 200,
+      "cache": "no-cache",
+      "bytes": 26519,
+      "sha256": "d84484c27dc0eac6763315a417d8a63644f8ce3281498e9a99c0cd6281ca9e82"
+    },
+    {
+      "name": "styles.css",
+      "status": 200,
+      "cache": "no-cache",
+      "bytes": 6996,
+      "sha256": "b7cf289d511324b74771af108c9ece87c4c1d6ddd2457213be58429e9eb459ab"
+    },
+    {
+      "name": "controller.js",
+      "status": 200,
+      "cache": "no-cache",
+      "bytes": 8325,
+      "sha256": "b06ea52743b95fd8de4f3fdb4d5d52ca3f3b6b1a59cb637e6cb2dceecac79675"
+    },
+    {
+      "name": "geometry.js",
+      "status": 200,
+      "cache": "no-cache",
+      "bytes": 3339,
+      "sha256": "0cbb1bce2e09267a3b5506d5633f86673ab5b0d1d78ff29c392f596b84c4e382"
+    },
+    {
+      "name": "image-header.js",
+      "status": 200,
+      "cache": "no-cache",
+      "bytes": 5410,
+      "sha256": "ae1d43dea08a6357f704cc9481bab24bd284a118bb0a84242d759158d2691cdf"
+    },
+    {
+      "name": "synthetic.png",
+      "status": 200,
+      "cache": "no-cache",
+      "bytes": 84,
+      "sha256": "453c92b2eb021c8982663ce4d1154c40008b58e22f314ff99f70688bfd48f23b"
+    },
+    {
+      "name": "fonts/noto-sans.ttf",
+      "status": 200,
+      "cache": "no-cache",
+      "bytes": 2049096,
+      "sha256": "bfb7bb691513f12e734dc346c03a03f784912432d7e3fa8e56efcf906fe86b3d"
+    },
+    {
+      "name": "fonts/OFL.txt",
+      "status": 200,
+      "cache": "no-cache",
+      "bytes": 4396,
+      "sha256": "cee9892f9f0cc8fe882c9e9537ee6a89621d86ee7ceaf70b02e2b2b1c25c061a"
+    }
+  ],
+  "scope": "exact served static bytes after review restart; not UI/security audit"
+}

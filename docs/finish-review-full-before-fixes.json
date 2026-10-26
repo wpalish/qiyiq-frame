@@ -1,0 +1,151 @@
+{
+  "disposition": "fix",
+  "persistence": {
+    "status": "pass",
+    "specifics": [
+      "PRODUCT.md and editor.md exist. This is an Operate/code-led build; no approved raster comp, comp-round state/spec or diff gate applies. No human visual choice is claimed.",
+      "The printed roll corroborates the brief’s seed reference. The gallery HTML is a direction sketch only. Board/hero browser image-viewer captures are craft calibration only; their black letterboxing is not product evidence.",
+      "Check 0 passes: all 14 authoritative current captures exist, were individually opened, have the claimed JPEG pixel dimensions, and match their recorded SHA256. Raw/docs/review copies match, and every recorded public-source hash matches the inspected current files. Six captures are 1126×1087; eight are 400×700. Scrolled sections claim sections, not fullpage captures.",
+      "No Refuse-list banned scaffold, gradient text, imitation material, system display face or glyph icon substitution was observed in these captures/source. Native file/select/summary controls are intentional under the brief."
+    ],
+    "coverage": {
+      "currentCapturesInspected": [
+        "qiyiq-fixed-empty400.jpg",
+        "qiyiq-fixed-reopen-pending1126.jpg",
+        "qiyiq-fixed-wrong-source1126.jpg",
+        "qiyiq-fixed-crop-top1126.jpg",
+        "qiyiq-fixed-crop-downloads1126.jpg",
+        "qiyiq-fixed-beta-empty1126.jpg",
+        "qiyiq-fixed-admin-backup1126.jpg",
+        "qiyiq-fixed-kk-top400.jpg",
+        "qiyiq-fixed-kk-downloads400.jpg",
+        "qiyiq-fixed-kk-invalid-crop400.jpg",
+        "qiyiq-fixed-kk-crop-controls400.jpg",
+        "qiyiq-fixed-kk-archive-history400.jpg",
+        "qiyiq-fixed-kk-source-settled400.jpg",
+        "qiyiq-fixed-kk-result-settled400.jpg"
+      ],
+      "sourceInspected": [
+        "public/index.html",
+        "public/styles.css",
+        "public/app.js",
+        "public/controller.js",
+        "public/geometry.js",
+        "public/image-header.js"
+      ],
+      "referencesInspected": [
+        "PRODUCT.md",
+        ".impeccable/briefs/editor.md",
+        ".impeccable/mocks/decision/gallery.html",
+        "qiyiq-direction-roll.txt",
+        "1998bcabd5df3b0e.json",
+        "qiyiq-quality-bar/board-browser.jpg",
+        "qiyiq-quality-bar/hero-browser.jpg",
+        "impeccable/reference/craft-floor.md"
+      ],
+      "notInspectedOrProven": "Historical workflow captures and linked functional test reports were not used to grant current visual approval. No application/browser runtime, touch, assistive technology, security, rights, performance, backend/private data or publication review was performed. The parent’s detector result [] is mechanical evidence only; no second detector ran."
+    }
+  },
+  "fidelity": {
+    "basis": "No approved comp exists. This is a contract/own-world assessment, not a comp element or pixel-reproduction matrix. The critique references create no copied asset, topology, palette or ornament obligations.",
+    "matrix": [
+      {
+        "element": "TYPE",
+        "state": "match",
+        "authority": "OWN-WORLD",
+        "evidence": "Self-hosted Noto is declared in styles.css; captured display/body/caption steps use the same precise sans family. No system display face is used as the intended voice."
+      },
+      {
+        "element": "MATERIAL",
+        "state": "match",
+        "authority": "OWN-WORLD and product truth",
+        "evidence": "Real Canvas image buffers sit on plain image work areas; no paper, embossing, stamp or cutout material is faked. The tiny SYN fixture visibly interpolates, consistent with the explicit warning."
+      },
+      {
+        "element": "GROUND",
+        "state": "match",
+        "authority": "OWN-WORLD near-white ground",
+        "evidence": "styles.css declares #f8fafb ground, #17252d ink and #e3edf1 parameters, consistent with the inspected cold near-white field and pale-blue panel. The annual cards are calibration, not literal color authority."
+      },
+      {
+        "element": "THESIS",
+        "state": "match",
+        "authority": "editor.md THESIS",
+        "evidence": "Desktop source/result work areas share a measured caption rail; the result caption specifies the kept source coordinates and destination rectangle. Numeric manual geometry is explicit before preparation."
+      },
+      {
+        "element": "OWN-WORLD",
+        "state": "match",
+        "authority": "editor.md OWN-WORLD",
+        "evidence": "Plain image fields, hairline caption rules, graphite text, mineral-blue controls and pale-blue parameters transfer gallery-label discipline without replacing familiar controls."
+      },
+      {
+        "element": "STORY",
+        "state": "contradicted",
+        "authority": "editor.md STORY; truthful UI states",
+        "evidence": "Selection, comparison, crop/contain controls, separate prepared downloads, immutable recipe rows and exact-source reopen are visible. Rejection and identity-transition copy/state contradict the live work area in F1 and F3."
+      },
+      {
+        "element": "FIRST VIEWPORT",
+        "state": "adaptation",
+        "authority": "editor.md narrow-width stacking and native labeled controls",
+        "evidence": "At 1126px the pair and numeric column are visible in the top viewport. At 400px the header, status, navigation and picker lead; source/result/parameters stack below, so both images are not simultaneously visible in the first 700px. The supplied sections show the stack without horizontal clipping. No 1440px or fullpage claim is made."
+      },
+      {
+        "element": "FORM",
+        "state": "match",
+        "authority": "editor.md FORM and qiyiq-direction-roll.txt",
+        "evidence": "seed:1998bcabd5df3b0e matches the printed SEED REFERENCE and assigned grounded index 3. The brief carries the reference rather than the raw key. Direction is inferred after unanswered waits, not human-approved."
+      },
+      {
+        "element": "Truth and recovery copy",
+        "state": "contradicted",
+        "authority": "Floor copy/states; RU/KK product language",
+        "evidence": "F1 asserts a nonexistent retained result; F2 exposes raw validation English without the field-specific bound; F3 leaves stale form values after a claimed input clear."
+      }
+    ],
+    "memoryTest": "The top viewport reads as one-image source/result editing with geometry and measured output. On 400px the first viewport communicates the product and source-selection task; comparison requires scrolling, as the brief permits stacking."
+  },
+  "ceiling": {
+    "unusedNativeDevices": "The annual references show registration crosses, attribution seals, paper drift, emphatic lettering scale, ornamental density and atmospheric photography. Those devices are unused under the committed Operate transfer and explicit no-stamps rule; they are not missing assets. The transferred frame is the aligned measured comparison rail. Source contains only short control color transitions, with no authored image-state motion; motion was not observable from still captures. Do not import decorative annual furniture into the editor.",
+    "releaseLimit": "The three state/recovery defects below prevent a finish approval despite the valid capture set. There is no focal-material contradiction or other rebuild condition."
+  },
+  "material_fixes": [
+    {
+      "id": "F1",
+      "check": "Truth; STORY error state",
+      "priority": 1,
+      "finding": "The empty wrong-source state says the last correct result was retained, although both work areas are empty.",
+      "evidence": [
+        "qiyiq-fixed-wrong-source1126.jpg",
+        "public/app.js: loadFile error branch"
+      ],
+      "action": "Choose the rejection message from actual retained source/preview state. When none exists, say that no result is available and require the exact saved source; reserve previous-result language for an actually retained preview. Keep export blocked."
+    },
+    {
+      "id": "F2",
+      "check": "Floor copy and states; RU/KK recovery",
+      "priority": 2,
+      "finding": "An invalid crop displays raw English “Invalid crop x” inside KK copy; its generic recovery does not give the allowed X range or identify the offending numeric control. Native HTML validity cannot catch this source-dependent bound because crop-x has no dynamic max.",
+      "evidence": [
+        "qiyiq-fixed-kk-invalid-crop400.jpg",
+        "public/app.js: renderImage and applySettings",
+        "public/geometry.js: normalizeSettings"
+      ],
+      "action": "Translate parser/controller validation into RU/KK task messages with the relevant limit and recovery, and associate the failing geometry message/invalid state with the affected field. For this case identify X and the valid source-coordinate range; do not append raw internal English."
+    },
+    {
+      "id": "F3",
+      "check": "Truth; empty and identity-transition states",
+      "priority": 3,
+      "finding": "The beta empty editor still shows the prior account’s crop mode and 100×100 / 3,0 / 3×2 values, while logout says input was cleared. Export/save are correctly blocked, so this is misleading stale form state, not an observed cross-account export or isolation failure.",
+      "evidence": [
+        "qiyiq-fixed-beta-empty1126.jpg",
+        "public/app.js: clearLive, identity, logout",
+        "public/controller.js: identity clears internal settings"
+      ],
+      "action": "Reset the visible mode, dimensions, matte and crop fields to the declared defaults when identity changes, hide the crop fieldset, and keep the empty preview/actions consistent. Preserve geometry during same-account metadata refresh."
+    }
+  ],
+  "keep": "Keep the paired measured source/result rail, native labeled controls, explicit source SHA binding, separate prepared download actions and absence of AI or approval cues."
+}

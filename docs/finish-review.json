@@ -1,0 +1,63 @@
+{
+  "verdict": {
+    "mode": "Verdict pass on F1/F2/F3 only; not a fresh full audit.",
+    "sourceCommit": "c4ff1cd",
+    "scores": [
+      {
+        "id": "F1",
+        "status": "resolved",
+        "evidence": "The new empty1126 capture says no correct result exists and asks for the required source; retained1126 shows the previous source/result and labels them retained with export blocked. Targeted loadFile source branches on actual source plus preview.",
+        "captures": [
+          "qiyiq-finalfix-F1-empty1126.jpg",
+          "qiyiq-finalfix-F1-retained1126.jpg"
+        ]
+      },
+      {
+        "id": "F2",
+        "status": "resolved",
+        "evidence": "The new 400px KK/RU recovery captures give X’s actual 0–5 integer range and require correcting that field, without raw internal English; X-field400 shows the invalid control treatment. Targeted source connects the failing field to the polite export-state message with aria-invalid/describedby. This is no screenreader-use claim.",
+        "captures": [
+          "qiyiq-finalfix-F2-X-field400.jpg",
+          "qiyiq-finalfix-F2-KK-recovery400.jpg",
+          "qiyiq-finalfix-F2-RU-recovery400.jpg"
+        ]
+      },
+      {
+        "id": "F3",
+        "status": "resolved",
+        "evidence": "The new beta desktop/mobile captures show empty work areas, contain mode, 1000×1000, white matte, hidden crop fields and disabled preparation. The refresh400 capture retains the prior 101×100 crop values; supplied before/after browser proof also matches title, source SHA and all geometry exactly. Targeted clearLive resets visible defaults only when identity changes.",
+        "captures": [
+          "qiyiq-finalfix-F3-refresh-keeps400.jpg",
+          "qiyiq-finalfix-F3-beta-default1126.jpg",
+          "qiyiq-finalfix-F3-beta-top400.jpg",
+          "qiyiq-finalfix-F3-beta-default400.jpg"
+        ]
+      }
+    ],
+    "evidenceCheck": {
+      "status": "pass",
+      "capturesIndividuallyOpened": 9,
+      "desktop": "3 at 1126×1087",
+      "mobile": "6 at 400×700",
+      "verification": "Every named finalfix capture exists, has the claimed dimensions, matches its raw/docs/review hashes and current six public-source hashes, and has equal recorded pre/post viewport state. Recorded scrollWidth equals width. Ordinary viewport sections, not fullpage or touch/AT captures.",
+      "captureNames": [
+        "qiyiq-finalfix-F1-empty1126.jpg",
+        "qiyiq-finalfix-F1-retained1126.jpg",
+        "qiyiq-finalfix-F2-X-field400.jpg",
+        "qiyiq-finalfix-F2-KK-recovery400.jpg",
+        "qiyiq-finalfix-F2-RU-recovery400.jpg",
+        "qiyiq-finalfix-F3-refresh-keeps400.jpg",
+        "qiyiq-finalfix-F3-beta-default1126.jpg",
+        "qiyiq-finalfix-F3-beta-top400.jpg",
+        "qiyiq-finalfix-F3-beta-default400.jpg"
+      ]
+    },
+    "sourceScope": "Targeted F1/F2/F3 presentation/reset logic and error-associated markup/styles only. No second detector, new domain review, application/browser runtime, test execution or private-data inspection. Supplied test totals are not an independent rerun."
+  },
+  "remaining": {
+    "status": "clear",
+    "fixBatchRegressions": [],
+    "scope": "ship earned here covers the scored fixes, not the whole surface."
+  },
+  "disposition": "ship"
+}

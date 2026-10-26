@@ -1,0 +1,42 @@
+{
+  "at": "2026-10-26T12:32:38.343Z",
+  "F2": {
+    "description": "export-state",
+    "disabled": true,
+    "invalid": "true",
+    "live": "polite",
+    "message": "X: 0–5 аралығындағы бүтін санды енгізіңіз. Осы өрісті түзетіңіз; экспорт бұғатталған.",
+    "x": "6"
+  },
+  "sameAccountRefresh": {
+    "before": {
+      "source": "SHA256 453c92b2eb021c8982663ce4d1154c40008b58e22f314ff99f70688bfd48f23b",
+      "values": {
+        "crop-height": "2",
+        "crop-width": "3",
+        "crop-x": "3",
+        "crop-y": "0",
+        "height": "100",
+        "matte": "white",
+        "mode": "crop",
+        "recipe-title": "SYN_KEEP_UI_ONLY",
+        "width": "101"
+      }
+    },
+    "after": {
+      "source": "SHA256 453c92b2eb021c8982663ce4d1154c40008b58e22f314ff99f70688bfd48f23b",
+      "values": {
+        "crop-height": "2",
+        "crop-width": "3",
+        "crop-x": "3",
+        "crop-y": "0",
+        "height": "100",
+        "matte": "white",
+        "mode": "crop",
+        "recipe-title": "SYN_KEEP_UI_ONLY",
+        "width": "101"
+      }
+    }
+  },
+  "scope": "actual current app; no recipe writes; metadata6/audit6 remains; aria association observed, not screenreader test"
+}

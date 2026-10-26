@@ -1,0 +1,130 @@
+{
+  "schemaVersion": 1,
+  "generatedAt": "2026-10-26T12:44:41.718400Z",
+  "mode": "source-derived documentation of a new built world",
+  "status": "written; source correspondence statically validated",
+  "authority": [
+    "PRODUCT.md",
+    ".impeccable/briefs/editor.md"
+  ],
+  "sourceHashes": {
+    "public/styles.css": "b7cf289d511324b74771af108c9ece87c4c1d6ddd2457213be58429e9eb459ab",
+    "public/index.html": "cd6433eef869f953d7e10a9f027bf209be24cc4b089443fb9459e63a17bbb48e",
+    "public/app.js": "d84484c27dc0eac6763315a417d8a63644f8ce3281498e9a99c0cd6281ca9e82",
+    "PRODUCT.md": "ebb8f0f3233e70a6b297d7c3cd14cd81b56116c5f9c35a59dc70401672cf0312",
+    ".impeccable/briefs/editor.md": "9df041a2c2f32b161b6487ac51b723b986948812f30168dac0966ac7c0b0443d"
+  },
+  "written": [
+    "DESIGN.md",
+    ".impeccable/design.json",
+    "docs/design-examples.html",
+    "docs/design-documentation.json"
+  ],
+  "counts": {
+    "literalColorsInStylesheet": 16,
+    "activeNormativeColors": 14,
+    "declaredUnusedColorsExcluded": 2,
+    "typographyRoles": 9,
+    "roundedTokens": 2,
+    "spacingSteps": 13,
+    "frontmatterComponentVariants": 8,
+    "staticComponentExamples": 9,
+    "generatedTonalRampStepsPerColor": 8
+  },
+  "extraction": {
+    "colors": {
+      "blue": "#225e80",
+      "hover": "#174a66",
+      "selection": "#c5e3f1",
+      "ink": "#17252d",
+      "muted": "#415b68",
+      "ground": "#f8fafb",
+      "panel": "#e3edf1",
+      "line": "#9bafb9",
+      "paper": "#fff",
+      "image-ground": "#e8edef",
+      "error": "#84251e",
+      "focus": "#a04513",
+      "warning": "#6b431b",
+      "warning-ground": "#fff4df"
+    },
+    "unusedDeclarations": {
+      "error-ground": "#fff0ed",
+      "success": "#235443"
+    },
+    "spacingNote": "Repeated source measures; no invented ratio scale.",
+    "noInventedPrimitives": [
+      "No chip component",
+      "No decorative card component",
+      "No shadow elevation scale",
+      "No mono font",
+      "No application animation grammar"
+    ],
+    "font": {
+      "path": "public/fonts/noto-sans.ttf",
+      "license": "public/fonts/OFL.txt",
+      "delivery": "Self-hosted @font-face; no network inspection performed."
+    }
+  },
+  "sourceCorrespondence": {
+    "primary": "public/styles.css .primary and shared button rules; public/index.html #prepare",
+    "inputAndInvalidState": "public/styles.css input/select and input[aria-invalid=true]; public/app.js renderImage/applySettings",
+    "liveErrorAssociation": "public/index.html #export-state aria-live=polite; public/app.js failing-field aria-describedby=export-state",
+    "hashWrapping": "public/styles.css figcaption/.recipe-row/pre plus #export-state,#pending-recipe overflow-wrap:anywhere",
+    "layout": "public/styles.css editing-grid/comparison and max-width 1000px/600px rules",
+    "identityReset": "public/app.js clearLive/identity",
+    "specimens": "Nine static snippets map to actual selectors/markup; no runtime or new product feature is represented.",
+    "typographyInheritance": "Fields inherit 550 label weight; buttons author 600. Recipe paragraph specificity keeps recipe fingerprints 14px; figure-caption fingerprints use 12px."
+  },
+  "reviewEvidence": {
+    "originalFull": "docs/finish-review-full-before-fixes.json",
+    "currentVerdict": "docs/finish-review.json",
+    "currentVerdictScope": "F1/F2/F3 only, disposition ship; not a second full audit.",
+    "packet": "../../program/qiyiq-ui-fix-verdict-packet.json",
+    "providedViewports": [
+      "1126×1087",
+      "400×700"
+    ],
+    "usage": "Review/packet read for scope and responsive context only. No new capture or independent screenshot inspection was performed by this documentation pass."
+  },
+  "qualitativeAuthority": {
+    "northStar": "Gallery-label discipline",
+    "basis": "OWN-WORLD wording plus actual built source",
+    "userChoice": "Unanswered/timed-out; direction inferred in existing brief. No owner approval or standing preference claimed."
+  },
+  "notCanonizedOrRepaired": [
+    "Unused error-ground/success declarations are excluded.",
+    "Shared active background/primary foreground interaction is a source observation and unverified state hypothesis; hover-specific primary rule wins while hovered. No touch/no-hover test or confirmed product-defect claim.",
+    "Generated tonal ramps are auxiliary metadata and not extracted product tokens."
+  ],
+  "validation": {
+    "jsonParse": true,
+    "frontmatterSchema": {
+      "status": "pass",
+      "parser": "PyYAML safe_load",
+      "componentPropsLimitedToEight": true,
+      "tokenReferencesResolved": true,
+      "canonicalSectionOrder": true
+    },
+    "allColorsMatchActiveSource": true,
+    "exampleCount": 9,
+    "narrativeExact": true,
+    "sourceUnchanged": true,
+    "scope": "Source, schema and static-example correspondence only. No browser/runtime/private-data/secret/network operations; no product, browser or test totals added. No full accessibility/security/performance claims.",
+    "staticExamples": {
+      "count": 9,
+      "scripts": 0,
+      "productAPIRequests": 0,
+      "cssScope": "ds-prefixed classes; inherited custom properties with exact-value fallbacks",
+      "browserRendered": false
+    },
+    "authorityCurrentAtValidation": true,
+    "typographyInheritance": "pass"
+  },
+  "authorityRefresh": {
+    "path": "PRODUCT.md",
+    "reason": "Programme parent updated review/release status during documentation; reread current authority. Visual constraints and unanswered-choice status are unchanged.",
+    "initialSha256": "baeff1cf515c1296837bc969bd63fa645b597c18725db3da95196bd3ee43c091",
+    "currentSha256": "ebb8f0f3233e70a6b297d7c3cd14cd81b56116c5f9c35a59dc70401672cf0312"
+  }
+}

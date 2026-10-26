@@ -1,0 +1,17 @@
+{
+  "mode": "RGBA",
+  "size": [
+    1800,
+    1800
+  ],
+  "pixel00": [
+    110,
+    170,
+    80,
+    255
+  ],
+  "byteLength": 11032603,
+  "sha256": "29734d36f34daac2933aeb818d4e1a1085f48c809c13b8a908cccd992439e2d8",
+  "manifestExact": true,
+  "scope": "actual browser downloads read and independently decoded with Pillow; own deterministic noise, no original photograph"
+}

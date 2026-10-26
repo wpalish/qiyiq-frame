@@ -1,0 +1,12 @@
+{
+  "status": "important_findings_resolved_by_TDD_and_scoped_browser_evidence",
+  "originalReview": "docs/code-review-initial.json",
+  "reviewedCommit": "1ac5d2a9e9cd0b67ab248292ffc91bb62b126622",
+  "sourceFixCommit": "dad1cc3",
+  "UIFixCommit": "c4ff1cd",
+  "R1": "REDlargeoutput\u219255green;realJPEG3.3MB\u2192PNG11.0MB/exactdownloadhash",
+  "R2": "REDhelddemo\u219255green;actualunmodifiedappfixturekeepsnewerfileandURLs",
+  "R3": "REDrefreshdecode\u219255green;realhelddecode/currentdefaultandrecipecontrolscomplete",
+  "M1_M2": "LaterfreshfullUIreviewgradedactualtruth/recoveryimpactmaterialF1/F2;fiveUIregressionsRED\u219260greenandscopedverdictresolved",
+  "scope": "Source-review fixes verified by author TDD/current tests, not a second fresh code review; actualUIreview+verdict separate. No fullsecurity/decoder/performance claim."
+}

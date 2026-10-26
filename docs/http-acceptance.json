@@ -1,0 +1,383 @@
+{
+  "at": "2026-10-26T12:09:38.121Z",
+  "cases": [
+    {
+      "name": "beta cannot archive alpha",
+      "status": 403,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "admin has no creator override",
+      "status": 403,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "alpha cannot archive beta",
+      "status": 403,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "stale create",
+      "status": 409,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "repeated key",
+      "status": 409,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "client owner",
+      "status": 400,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "string revision",
+      "status": 400,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "unknown source pixels",
+      "status": 400,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "crop overflow",
+      "status": 400,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "invalid output size",
+      "status": 400,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "no image endpoint",
+      "status": 404,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "operator backup",
+      "status": 403,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "operator users",
+      "status": 403,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "operator audit",
+      "status": 403,
+      "wholeWorkspaceAndAuditEqual": true
+    },
+    {
+      "name": "nonempty restore",
+      "status": 409,
+      "wholeWorkspaceAndAuditEqual": true
+    }
+  ],
+  "final": {
+    "workspace": {
+      "revision": 6,
+      "data": {
+        "recipes": [
+          {
+            "id": "54a0a9df-6130-482f-b0d4-7072cc475c35",
+            "title": "SYN_BETA_UNRELATED",
+            "source": {
+              "format": "png",
+              "width": 6,
+              "height": 4,
+              "byteLength": 84,
+              "sha256": "453c92b2eb021c8982663ce4d1154c40008b58e22f314ff99f70688bfd48f23b"
+            },
+            "settings": {
+              "mode": "contain",
+              "width": 100,
+              "height": 100,
+              "matte": "white",
+              "crop": null
+            },
+            "geometry": {
+              "source": {
+                "x": 0,
+                "y": 0,
+                "width": 6,
+                "height": 4
+              },
+              "destination": {
+                "x": 0,
+                "y": 16,
+                "width": 100,
+                "height": 67
+              },
+              "upscaled": true,
+              "distorted": false
+            },
+            "owner": "beta",
+            "createdAt": "2026-10-26T11:34:02.849Z",
+            "archivedAt": null,
+            "archiveKey": null
+          },
+          {
+            "id": "88fe6360-2a2d-4bb6-a8ab-24f23a3f2720",
+            "title": "SYN_ALPHA_CONTAIN",
+            "source": {
+              "format": "png",
+              "width": 6,
+              "height": 4,
+              "byteLength": 84,
+              "sha256": "453c92b2eb021c8982663ce4d1154c40008b58e22f314ff99f70688bfd48f23b"
+            },
+            "settings": {
+              "mode": "contain",
+              "width": 100,
+              "height": 100,
+              "matte": "transparent",
+              "crop": null
+            },
+            "geometry": {
+              "source": {
+                "x": 0,
+                "y": 0,
+                "width": 6,
+                "height": 4
+              },
+              "destination": {
+                "x": 0,
+                "y": 16,
+                "width": 100,
+                "height": 67
+              },
+              "upscaled": true,
+              "distorted": false
+            },
+            "owner": "alpha",
+            "createdAt": "2026-10-26T11:36:01.866Z",
+            "archivedAt": "2026-10-26T11:52:06.156Z",
+            "archiveKey": "342910a1-336c-4773-8326-7a216fefb8ed"
+          },
+          {
+            "id": "aebb6ab7-10ec-4ec9-b599-550adbfadf2b",
+            "title": "SYN_ALPHA_CROP",
+            "source": {
+              "format": "png",
+              "width": 6,
+              "height": 4,
+              "byteLength": 84,
+              "sha256": "453c92b2eb021c8982663ce4d1154c40008b58e22f314ff99f70688bfd48f23b"
+            },
+            "settings": {
+              "mode": "crop",
+              "width": 100,
+              "height": 100,
+              "matte": "white",
+              "crop": {
+                "x": 3,
+                "y": 0,
+                "width": 3,
+                "height": 2
+              }
+            },
+            "geometry": {
+              "source": {
+                "x": 3,
+                "y": 0,
+                "width": 3,
+                "height": 2
+              },
+              "destination": {
+                "x": 0,
+                "y": 0,
+                "width": 100,
+                "height": 100
+              },
+              "upscaled": true,
+              "distorted": true
+            },
+            "owner": "alpha",
+            "createdAt": "2026-10-26T11:42:46.398Z",
+            "archivedAt": null,
+            "archiveKey": null
+          },
+          {
+            "id": "59aa7cdb-780f-4ce0-8e33-2e3dc919415c",
+            "title": "SYN_BETA_MOBILE_RACE",
+            "source": {
+              "format": "png",
+              "width": 6,
+              "height": 4,
+              "byteLength": 84,
+              "sha256": "453c92b2eb021c8982663ce4d1154c40008b58e22f314ff99f70688bfd48f23b"
+            },
+            "settings": {
+              "mode": "contain",
+              "width": 101,
+              "height": 100,
+              "matte": "white",
+              "crop": null
+            },
+            "geometry": {
+              "source": {
+                "x": 0,
+                "y": 0,
+                "width": 6,
+                "height": 4
+              },
+              "destination": {
+                "x": 0,
+                "y": 16,
+                "width": 101,
+                "height": 67
+              },
+              "upscaled": true,
+              "distorted": false
+            },
+            "owner": "beta",
+            "createdAt": "2026-10-26T11:48:51.386Z",
+            "archivedAt": null,
+            "archiveKey": null
+          },
+          {
+            "id": "a6c62a89-0eac-414d-805f-eb9291353105",
+            "title": "SYN_ҚИМА_Ә_І",
+            "source": {
+              "format": "png",
+              "width": 6,
+              "height": 4,
+              "byteLength": 84,
+              "sha256": "453c92b2eb021c8982663ce4d1154c40008b58e22f314ff99f70688bfd48f23b"
+            },
+            "settings": {
+              "mode": "crop",
+              "width": 101,
+              "height": 100,
+              "matte": "white",
+              "crop": {
+                "x": 3,
+                "y": 0,
+                "width": 3,
+                "height": 2
+              }
+            },
+            "geometry": {
+              "source": {
+                "x": 3,
+                "y": 0,
+                "width": 3,
+                "height": 2
+              },
+              "destination": {
+                "x": 0,
+                "y": 0,
+                "width": 101,
+                "height": 100
+              },
+              "upscaled": true,
+              "distorted": true
+            },
+            "owner": "alpha",
+            "createdAt": "2026-10-26T11:49:29.313Z",
+            "archivedAt": null,
+            "archiveKey": null
+          }
+        ],
+        "keys": [
+          {
+            "key": "54a0a9df-6130-482f-b0d4-7072cc475c35",
+            "at": "2026-10-26T11:34:02.849Z",
+            "actor": "beta",
+            "action": "create"
+          },
+          {
+            "key": "88fe6360-2a2d-4bb6-a8ab-24f23a3f2720",
+            "at": "2026-10-26T11:36:01.866Z",
+            "actor": "alpha",
+            "action": "create"
+          },
+          {
+            "key": "aebb6ab7-10ec-4ec9-b599-550adbfadf2b",
+            "at": "2026-10-26T11:42:46.398Z",
+            "actor": "alpha",
+            "action": "create"
+          },
+          {
+            "key": "59aa7cdb-780f-4ce0-8e33-2e3dc919415c",
+            "at": "2026-10-26T11:48:51.386Z",
+            "actor": "beta",
+            "action": "create"
+          },
+          {
+            "key": "a6c62a89-0eac-414d-805f-eb9291353105",
+            "at": "2026-10-26T11:49:29.313Z",
+            "actor": "alpha",
+            "action": "create"
+          },
+          {
+            "key": "342910a1-336c-4773-8326-7a216fefb8ed",
+            "at": "2026-10-26T11:52:06.156Z",
+            "actor": "alpha",
+            "action": "archive"
+          }
+        ]
+      }
+    },
+    "audit": [
+      {
+        "seq": 1,
+        "requestKey": "54a0a9df-6130-482f-b0d4-7072cc475c35",
+        "at": "2026-10-26T11:34:02.849Z",
+        "actor": "beta",
+        "action": "create"
+      },
+      {
+        "seq": 2,
+        "requestKey": "88fe6360-2a2d-4bb6-a8ab-24f23a3f2720",
+        "at": "2026-10-26T11:36:01.866Z",
+        "actor": "alpha",
+        "action": "create"
+      },
+      {
+        "seq": 3,
+        "requestKey": "aebb6ab7-10ec-4ec9-b599-550adbfadf2b",
+        "at": "2026-10-26T11:42:46.398Z",
+        "actor": "alpha",
+        "action": "create"
+      },
+      {
+        "seq": 4,
+        "requestKey": "59aa7cdb-780f-4ce0-8e33-2e3dc919415c",
+        "at": "2026-10-26T11:48:51.386Z",
+        "actor": "beta",
+        "action": "create"
+      },
+      {
+        "seq": 5,
+        "requestKey": "a6c62a89-0eac-414d-805f-eb9291353105",
+        "at": "2026-10-26T11:49:29.313Z",
+        "actor": "alpha",
+        "action": "create"
+      },
+      {
+        "seq": 6,
+        "requestKey": "342910a1-336c-4773-8326-7a216fefb8ed",
+        "at": "2026-10-26T11:52:06.156Z",
+        "actor": "alpha",
+        "action": "archive"
+      }
+    ]
+  },
+  "backupDataExact": true,
+  "restore": {
+    "httpStatus": 200,
+    "recipesExact": true,
+    "original6KeysExact": true,
+    "keys": 7,
+    "newAuditEvents": 1,
+    "duplicateCopy400WholeEmptyEqual": true,
+    "privateDatabase": "work/program/private/qiyiq-empty-restore.sqlite",
+    "serverPort": 49665
+  },
+  "scope": "15 authenticated main refusals preserve whole6/audit6; actual current metadata empty restore in fresh private file and ephemeral server closed; no images/auth/audit imported; original source content preserved except explicit archive visibility"
+}

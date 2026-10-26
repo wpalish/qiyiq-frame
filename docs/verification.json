@@ -1,0 +1,106 @@
+{
+  "product": "qiyiq-frame",
+  "title": "QiyiqFrame",
+  "reference": 21,
+  "version": "0.1.0",
+  "as_of": "2026-10-26T12:46:01.024230+00:00",
+  "tests": {
+    "passed": 60,
+    "failed": 0,
+    "skipped": 0,
+    "todo": 0,
+    "reporter": "tap",
+    "log": "docs/test-output.txt",
+    "geometry": 8,
+    "header": 9,
+    "store": 10,
+    "HTTP": 8,
+    "controller": 15,
+    "UI_integration": 10,
+    "scope": "60current unique automated cases, not sums of repeated runs; pixel/HTTP acceptance/documentation checks recorded separately",
+    "final_command": "npm test (node --test --test-reporter=tap test/*.test.js)",
+    "final_log": "docs/test-output.txt",
+    "final_log_sha256": "2012b611ed321ab7818189ae149edc6311b420db0a63e6182dea6311b0046b18"
+  },
+  "browser": {
+    "status": "ui_workflow_passed",
+    "synthetic_only": true,
+    "actual_viewports": [
+      1126,
+      400
+    ],
+    "desktop": "docs/qiyiq-finalfix-F3-beta-default1126.jpg",
+    "mobile": "docs/qiyiq-finalfix-F2-X-field400.jpg",
+    "workflow": "docs/browser-proof.json",
+    "external_action": false,
+    "scope": "Original actual native workflow,14full-review current states before presentation fixes plus9finalfix current captures. Ordinary JPEG viewport sections/DPR1, not fullpage/touch/screenreader/1440/performance/security/publicserver audit.",
+    "release_illustration": "docs/qiyiq-frame-release-editor1126.jpg"
+  },
+  "acceptance": [
+    "Own6×4RGBA quadrants: actual PNG/JPEG decode, transparent contain100×100 with literal16/17margins, white matte, exact yellow crop and blue-source reopen. Real drawImage crop-edge bleed reproduced6/7, scratch integer crop fixed7/7. Separate actualdownload100×100/593bytes has all10000pixels opaque yellow; contain2872bytes/hash/manifest exact.",
+    "Alpha ready source/title/100×100 geometry atrevision0; beta unrelated explicit create1 made alpha save stale. Wholeworkspace/audit1 exact refusal; native refresh retained source/title/dimensions/matte. NativeTab/Return created alpha contain2. Ownedrestart15669→15745at2 preserved whole/audit/all5own tables/67prior privateDBs; live browserrefresh retained same-account input.",
+    "Alpha crop explicit nativeEnter3. Actual400CSS/KK unsaved SYN_ҚИМА_Ә_І with101×100 crop; beta unrelatedHTTPcreate4 made save stale; whole/audit4 exact andrefresh source/title/allnumericfields exact. ExplicitnativeTab/Return created5, explicit nativeEnter archive oldcontain6. Frozen original title/source/geometry/owner/time retained; working hides old recipe, showArchived reveals immutable snapshot. Final5recipes/6keys/1archive,6/audit6. No replay.",
+    "Exact saved recipe requires same full source fingerprint. Different119byte file with identical visible quadrants rejected; correct84byte original restored frozen100×100 crop. No image upload endpoint; image bytes stay in browser live workflow, metadata is caller-declared and not proof of pixels or rights.",
+    "Fresh source review found generatedPNG input-budget and held-demo/refresh-decode races. ObservedRED5fail→55pass, then real Chrome ownJPEG3296655bytes→PNG11032603bytes1800×1800/exactdownloadSHA/Pillowdecode; samePNG refused as input. HeldSYN fetch cannot replace newer local file/links; real helddecode plus sameaccountrefresh reconciles defaults or saved recipe title/fields/pending. Those fault fixtures use unmodified app with synthetic browser API responses, noDB/authwrites.",
+    "15authenticated currentmain refusals each preserved whole6/audit6: creator/admin boundaries, stale/keyreuse, strict metadata/types/bounds, absentupload/operatoradmin/nonemptyrestore. CurrentJSONbackup exact5recipes/6keys and excludesusers/auth/audit/images; actualfreshprivatefileemptyrestore200/exactrecipes/original6keys+onefreshrestorekey/audit1, corruptduplicatecopy400emptyunchanged; ephemeralserverclosed.",
+    "Full fresh Impeccable review14actual1126/400states foundF1false retained-result/F2localized field recovery/F3identity geometryclear. Onebatch/testRED5fail→fullTAP60pass. Nine newfinalfixcaptures allopened/raw-docs-review-sourcehashesexact/prepostequal/overflow0; same reviewer scoredF1/F2/F3resolved/ship in conjunction with original full review. Detectoronce[]only. Noowner visualapproval invented; direction inferred after two actual unanswered waits.",
+    "Explicit logout/beta identity transition cleared source/title/downloads and resets visible defaults tocontain1000×1000white/hiddencrop at1126/400. Sameaccountrefresh preserves crop101×100/title/source/allfields. RU/KKXerror gives0–5 bound, marked field/ariaassociation/live message; no assistive-tech execution claim.",
+    "Release descriptor mapping exposed string reference that matchedzero programme rows; numeric21 now maps exactlyQiyiqFrame. Freshidentifiedownedrestart15745→17506at6 loads currentdescriptor/error metadata; whole6/audit6/all5own/67prior exact and consistentprivatecopy. Ninecurrentstaticresponses exactSHA/no-cache. No oldserver restarted or SabaqLoop ownerorigin changed."
+  ],
+  "limits": [
+    "Original manual single-image crop/contain, not Photoroom AI/cutout/bulk/scenes or full platform parity. Only owned synthetic fixtures used; no realclientphotographs, external APIs/integrations/delivery/costs/contracts.",
+    "InputPNG/JPEG1–8MiB,<=16MP and16000px per side. Bounded framing/CRC/metadata checks reject APNG/eXIf and JPEGEXIF/MPF; browser decode and dimensions must agree. This is not complete compressed-image or decoder security validation; flatten/orient unsupported photos before selection.",
+    "Output100–3000px each/<=9MP, separately bounded40MiB generatedPNG. Cropintegerrectmaterializedbeforeinterpolation; differingaspectratio stretches. Containroundsdestination andfloorscentering/oddmargin. White matte fills transparency; opaque sourcebackground remains. Upscaling invents no recovered detail. Caps are not measured peakmemory/mobile reliability guarantees.",
+    "PNG/manifest hashes bind actual exportedbytes to declared source/geometry; generatedAt usesclientclock. Hashes/JSON are unsigned consistency, not authentic photograph/identity/rights/quality/marketplace moderation proof. Separate explicitdownloadlinks; prepared is not downloaded.",
+    "Frozenrecipes title1–120UTF16/sourcefingerprint/geometry/owner/servertime. Reopen selects exact samebytes; noedit/delete/unarchive. Onlycreatorarchive, adminnooverride; archivedhistory stillcounts toward200recipes/1000keys. Allauthenticatedstaff sharemetadata and limits; nottenant isolation.",
+    "Explicitcreate/archive/emptyrestore use atomicglobalrevisionCAS/newlowercaseUUIDv4key, replayrejectnotidempotentsuccess, rollbackbeforelastcommandclockreject. Clientcannotassignowner/time. Metadata can be declared without actualbrowserpixels; no serverimageupload route.",
+    "JSONbackup excludesusers/auth/sessions/audit/images; emptyrestore/currentreferencedaccounts/strictrow-key-geometrybinding only. Recomputedforgedconsistentmetadata notcryptographicallyprevented. ConsistentfullSQLitebackup private/separate; HTTPJSON2MiB.",
+    "Sameaccountlive in-apprefresh preservesfiles/inputs; fullreload maylose. Logout/accountchange clearsinterface/livebitmap/URLs, notknowledge/copies/allmemory. Unknownwriteoutcome mayhavecommitted; explicitread, noapplicationautoresend. Heldresponseguards testedatdeclaredscope.",
+    "Actualdesktop1126/mobile400/DPR1/ordinaryviewportcaptures andnativekeyboard; no touch/screenreader/1440/physicalmobile/fullsecurity/load/publichosting audit. Documenter source-only no-hover primary-active contrast observation remains an untested hypothesis, not confirmed defect or newaudit.",
+    "Three company hypotheses retain prior officialsource/contactdates; alreadyofferphoto/editing services. Needprocess/role/tools/volume/budget/interest unknown; fullmail/Sent/pending/allusedchannels clearance notdone. No newoutbound/customer/revenue claim."
+  ],
+  "runtime": {
+    "pid": 17506,
+    "port": 8860,
+    "script": "work/program/run-qiyiq-frame.mjs",
+    "before": "work/program/qiyiq-review-restart-before.json",
+    "after": "work/program/qiyiq-review-restart-after.json",
+    "earlier_restart": "work/program/qiyiq-restart-before.json/after.json at2",
+    "final_revision": 6,
+    "final_proof": "work/program/qiyiq-review-identity-after.json",
+    "fixture_cleanup": "work/program/qiyiq-fixtures-stop.json"
+  },
+  "preservation": {
+    "before": "work/program/qiyiq-review-prior-before.json",
+    "after": "work/program/qiyiq-review-prior-after.json",
+    "previous_servers": 37,
+    "private_databases": 67,
+    "own_tables_before": "work/program/qiyiq-review-restart-before.json",
+    "own_tables_after": "work/program/qiyiq-review-restart-after.json",
+    "own_table_count": 5,
+    "scope": "perDB-consistent alltable fingerprints, not one globally atomic backup",
+    "sabaqloop_owner_origin": "untouched"
+  },
+  "review": {
+    "status": "ship_full_review_plus_F1_F2_F3_resolved",
+    "file": "docs/finish-review.json",
+    "full_review": "docs/finish-review-full-before-fixes.json",
+    "scope": "FinalverdictscoresF1/F2/F3withpriorfullreview,notnewfullaudit",
+    "code": "docs/code-review-verdict.json",
+    "detector": "onerun[]only"
+  },
+  "commercial": {
+    "potential_company_matches": 3,
+    "qualified_buyers": 0,
+    "interest_confirmed": 0,
+    "new_sends": 0
+  },
+  "release_note": "QiyiqFrame: original bounded manual one-image crop/contain, exactsourcefingerprint reopen, explicit PNG+manifest andimmutable sharedmetadata recipes.60automatedtests,actual1126/400Chrome/keyboard/KK/stale/recovery/largePNG/heldfileproof;main6/audit6,ownedrestart6/all5tables/67priorDBpreserved,freshprivatefileemptyrestoreexact. FullUIreview+F1/F2/F3resolvedship,sourcefixesRED→GREEN. NoAI/cutout/rights/marketplaceapproval/tenant/publicSaaS/customer/outreachclaim.",
+  "documentation": {
+    "status": "completed_source_correspondence_validated",
+    "record": "docs/design-documentation.json",
+    "active_colors": 14,
+    "static_examples": 9,
+    "scope": "Static source/YAML/JSON correspondence; not added product tests or browser audit"
+  }
+}
