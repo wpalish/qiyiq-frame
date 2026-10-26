@@ -1,4 +1,4 @@
-import {inspectImage} from './image-header.js';
+import {inspectImage,inspectPNGOutput} from './image-header.js';
 import {normalizeRecipe,normalizeSettings,geometry} from './geometry.js';
 const defaults=()=>({mode:'contain',width:1000,height:1000,matte:'white',crop:null});
 const hash=async bytes=>Array.from(new Uint8Array(await crypto.subtle.digest('SHA-256',bytes))).map(b=>b.toString(16).padStart(2,'0')).join('');
@@ -19,7 +19,7 @@ function render(bitmap,g,settings){
 const encode=canvas=>new Promise((resolve,reject)=>canvas.toBlob(blob=>blob?resolve(blob):reject(Error('PNG encoding failed')),'image/png'));
 export class ImageSession {
  constructor(dependencies={}) {
-  this.dep={hash,inspect:inspectImage,decode:async(bytes,header)=>createImageBitmap(new Blob([bytes],{type:header.format==='png'?'image/png':'image/jpeg'})),render,encode,releaseCanvas:c=>{c.width=0;c.height=0;},urlCreate:blob=>URL.createObjectURL(blob),urlRevoke:url=>URL.revokeObjectURL(url),now:()=>Date.now(),changed:()=>{},...dependencies};
+  this.dep={hash,inspect:inspectImage,inspectOutput:inspectPNGOutput,decode:async(bytes,header)=>createImageBitmap(new Blob([bytes],{type:header.format==='png'?'image/png':'image/jpeg'})),render,encode,releaseCanvas:c=>{c.width=0;c.height=0;},urlCreate:blob=>URL.createObjectURL(blob),urlRevoke:url=>URL.revokeObjectURL(url),now:()=>Date.now(),changed:()=>{},...dependencies};
   this.generation=0;this.actor=null;this._bitmap=null;this._preview=null;this._source=null;this._settings=null;this._geometry=null;this._output=null;this.blocked=true;this.inputValid=false;this.error=null;this.loadingGeneration=null;this.exportInFlight=false;this.loadQueue=Promise.resolve();
  }
  get bitmap(){return this._bitmap;}
@@ -80,7 +80,8 @@ export class ImageSession {
   this.exportInFlight=true;this.changed();
   try{
    const blob=await this.dep.encode(canvas);if(!current())return {status:'stale'};
-   const bytes=new Uint8Array(await blob.arrayBuffer()),header=this.dep.inspect(bytes);
+   if(blob.size>41943040)throw Error('PNG output exceeds40MiB byte budget');
+   const bytes=new Uint8Array(await blob.arrayBuffer()),header=this.dep.inspectOutput(bytes);
    if(header.format!=='png'||header.width!==settings.width||header.height!==settings.height)throw Error('Encoded PNG dimensions differ');
    const sha256=await this.dep.hash(bytes);if(!current())return {status:'stale'};
    const manifest={format:'qiyiq-frame-export-v1',generatedAt:new Date(this.dep.now()).toISOString(),source,settings,geometry:g,output:{format:'png',width:header.width,height:header.height,sha256,byteLength:bytes.length},limits:'Numeric geometry and byte consistency only; no rights, recovered detail, quality or marketplace approval.'};
